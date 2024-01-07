@@ -1,0 +1,114 @@
+{
+    "Substantive": [
+        {
+            "artikel": "der",
+            "word": "Nachbar",
+            "translate_ru": "Сосед"
+        },
+        {
+            "artikel": "der",
+            "word": "Einkauf",
+            "translate_ru": "Покупка"
+        },
+        {
+            "artikel": "das",
+            "word": "Zentrum",
+            "translate_ru": "Центр"
+        },
+        {
+            "artikel": "das",
+            "word": "Gefühl",
+            "translate_ru": "Чувства"
+        },
+        {
+            "artikel": "der",
+            "word": "Anfang",
+            "translate_ru": "Начало"
+        },
+        {
+            "artikel": "der",
+            "word": "Mensch",
+            "translate_ru": "Человек"
+        },
+        {
+            "artikel": "der",
+            "word": "Arbeitgeber",
+            "translate_ru": "Работодатель"
+        },
+        {
+            "artikel": "die",
+            "word": "Arbeitgeberin",
+            "translate_ru": "Работодательница"
+        },
+        {
+            "artikel": "der",
+            "word": "Umzug",
+            "translate_ru": "Переезд"
+        },
+        {
+            "artikel": "die",
+            "word": "Sachen",
+            "translate_ru": "Вещи"
+        },
+        {
+            "artikel": "der",
+            "word": "Wecker",
+            "translate_ru": "Будильник"
+        },
+        {
+            "artikel": "der",
+            "word": "Arbeitstag",
+            "translate_ru": "Рабочий день"
+        }
+    ],
+    "Verben": [
+        {
+            "word": "ansehen",
+            "translate_ru": "смотрит",
+            "perfekt form": "angesehen",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "klappen",
+            "translate_ru": "сработать",
+            "perfekt form": "geklappt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "umziehen",
+            "translate_ru": "переезжать",
+            "perfekt form": "umgezogen",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "kennenlernen",
+            "translate_ru": "познакомились",
+            "perfekt form": "kennengelernt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "auspacken",
+            "translate_ru": "распаковывать",
+            "perfekt form": "ausgepacht",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "einschlafen",
+            "translate_ru": "уснуть",
+            "perfekt form": "eingeschlafen",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "merken",
+            "translate_ru": "заметить",
+            "perfekt form": "gemerkt",
+            "perfekt begin form": "hat"
+        }
+    ],
+    "Adjektive": [
+        {
+            "word": "glücklich",
+            "translate_ru": "счастлтливый"
+        }
+    ]
+}
