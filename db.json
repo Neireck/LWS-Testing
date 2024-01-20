@@ -108,13 +108,17 @@
     "Adjektive": [
         {
             "word": "glücklich",
-            "translate_ru": "счастлтливый"
+            "translate_ru": "счастливый"
         }
     ],
     "Fragen": [
         {
             "word": "Was?",
             "translate_ru": "Что?"
+        },
+        {
+            "word": "Wo?",
+            "translate_ru": "Где?"
         }
     ],
     "Anderen": [

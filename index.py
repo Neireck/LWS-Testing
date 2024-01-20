@@ -26,6 +26,8 @@ if 'mode' not in locals():
         999) Добавить слова в базу данных
         ''')
     mode = int(input('Ваш выбор: '))
+    statistic = [0, 0]
+    last_world = ''
 
 # Begin test
 j = 1
@@ -36,6 +38,8 @@ while j == 1:
         
         word_type = r_choice([key for key in db])
         word = r_choice(db[word_type])
+        if last_world == word: continue
+        
         try:
             w_artikel = word["artikel"]
         except KeyError:
@@ -44,33 +48,50 @@ while j == 1:
         print(f'\n({word_type})\nВаше слово: {w_artikel} {word["word"]}')
         answer = input('Перевод на русский: ')
         
-        if word["translate_ru"] == answer: print("\nПравильно!")
+        if word["translate_ru"] == answer: 
+            print("\nПравильно!")
+            statistic[0] += 1
         elif answer == '!': j = 0
-        else: print('\nНе правильно!')
+        else: 
+            print('\nНе правильно!\nПравильный ответ:', word["translate_ru"])
+            statistic[1] += 1
+        last_world = word
     elif mode == 2:
         # Русский -> Deutsch
 
         word_type = r_choice([key for key in db])
         word = r_choice(db[word_type])
+        if last_world == word: continue
 
         print(f'\nВаше слово: {word["translate_ru"]}')
         answer = input('Перевод на немецкий: ')
 
-        if word["word"] == answer: print("\nПравильно!")
+        if word["word"] == answer: 
+            print("\nПравильно!")
+            statistic[0] += 1
         elif answer == '!': j = 0
-        else: print('\nНе правильно!')
+        else: 
+            print('\nНе правильно!\nПравильный ответ:', word["word"])
+            statistic[1] += 1
+        last_world = word
     elif mode == 3:
         # Артикли немецких слов
 
         word_type = r_choice([key for key in db])
         word = r_choice(db[word_type])
+        if last_world == word: continue
 
         print(f'\nВаше слово: {word["word"]}')
         answer = input('Артикль: ')
         
-        if word["artikel"] == answer: print("\nПравильно!")
+        if word["artikel"] == answer: 
+            print("\nПравильно!")
+            statistic[0] += 1
         elif answer == '!': j = 0
-        else: print('\nНе правильно!')
+        else: 
+            print('\nНе правильно!\nПравильный ответ:', word["artikel"])
+            statistic[1] += 1
+        last_world = word
     elif mode == 999:
         # Заполнение БД
         print('\n!!! ВЫ В РЕЖИМЕ ДОБАВЛЕНИЕ СЛОВ В БАЗУ ДАННЫХ')
@@ -135,3 +156,5 @@ while j == 1:
             if confirm != '': w = 0
             
         j = 0
+
+if mode != 999: print(f"\nПравильных ответов: {statistic[0]}\nОшибок: {statistic[1]}\nВсего попыток: {statistic[0]+statistic[1]}\n")
