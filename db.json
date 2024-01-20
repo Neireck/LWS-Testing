@@ -110,5 +110,17 @@
             "word": "glücklich",
             "translate_ru": "счастлтливый"
         }
+    ],
+    "Fragen": [
+        {
+            "word": "Was?",
+            "translate_ru": "Что?"
+        }
+    ],
+    "Anderen": [
+        {
+            "word": "weil",
+            "translate_ru": "потому-что"
+        }
     ]
 }

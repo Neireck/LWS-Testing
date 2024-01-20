@@ -3,12 +3,12 @@ from random import randint, choice as r_choice
 
 # Connect database
 try:
-    with open('db.json', 'r') as j:
+    with open('db.json', 'r', encoding='utf8') as j:
         db = json.load(j)
 except:
-    with open('db.json', 'w+') as j:
-        json.dump({'Substantive':[], 'Verben':[], 'Adjektive':[]}, j, ensure_ascii=False)
-    with open('db.json', 'r') as j:
+    with open('db.json', 'w+', encoding='utf8') as j:
+        json.dump({'Substantive':[], 'Verben':[], 'Adjektive':[], 'Fragen':[], 'Anderen':[]}, j, ensure_ascii=False)
+    with open('db.json', 'r', encoding='utf8') as j:
         db = json.load(j)
     mode = 999
         
@@ -110,8 +110,24 @@ while j == 1:
                     "word":         input('Слово DE: '),
                     "translate_ru": input('Перевод RU: ')
                 })
+            elif word_type == 4:
+                name_type = 'Fragen'
+                print(f'\nДобавление слова типа "{name_type}"')
+
+                db[name_type].append({
+                    "word":         input('Слово DE: '),
+                    "translate_ru": input('Перевод RU: ')
+                })
+            elif word_type == 5:
+                name_type = 'Anderen'
+                print(f'\nДобавление слова типа "{name_type}"')
+
+                db[name_type].append({
+                    "word":         input('Слово DE: '),
+                    "translate_ru": input('Перевод RU: ')
+                })
             
-            with open("db.json", "w") as wdb:
+            with open("db.json", "w", encoding='utf8') as wdb:
                 json.dump(db, wdb, ensure_ascii=False)
 
             confirm = input('\nНажмите Enter чтобы продолжить или введите что либо, чтобы прервать... ')
