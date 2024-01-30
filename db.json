@@ -59,6 +59,11 @@
             "artikel": "der",
             "word": "Arbeitstag",
             "translate_ru": "Рабочий день"
+        },
+        {
+            "artikel": "die",
+            "word": "Erfahrung",
+            "translate_ru": "Опыт"
         }
     ],
     "Verben": [
@@ -119,6 +124,10 @@
         {
             "word": "Wo?",
             "translate_ru": "Где?"
+        },
+        {
+            "word": "Wann?",
+            "translate_ru": "Когда?"
         }
     ],
     "Anderen": [
