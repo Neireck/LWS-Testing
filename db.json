@@ -64,6 +64,91 @@
             "artikel": "die",
             "word": "Erfahrung",
             "translate_ru": "Опыт"
+        },
+        {
+            "artikel": "der",
+            "word": "Zoo",
+            "translate_ru": "Зоопарк"
+        },
+        {
+            "artikel": "der",
+            "word": "Tiger",
+            "translate_ru": "Тигр"
+        },
+        {
+            "artikel": "das",
+            "word": "Zebra",
+            "translate_ru": "Зебра"
+        },
+        {
+            "artikel": "die",
+            "word": "Richtung",
+            "translate_ru": "Направление"
+        },
+        {
+            "artikel": "der",
+            "word": "Fluss",
+            "translate_ru": "Река"
+        },
+        {
+            "artikel": "die",
+            "word": "Kreuzung",
+            "translate_ru": "Перекрёсток"
+        },
+        {
+            "artikel": "die",
+            "word": "Ausfahrt",
+            "translate_ru": "Выезд"
+        },
+        {
+            "artikel": "der",
+            "word": "Kopierer",
+            "translate_ru": "Ксерокс"
+        },
+        {
+            "artikel": "die",
+            "word": "Cafeteria",
+            "translate_ru": "Кафетерий"
+        },
+        {
+            "artikel": "der",
+            "word": "Stau",
+            "translate_ru": "Затор"
+        },
+        {
+            "artikel": "der",
+            "word": "Bürgersteig",
+            "translate_ru": "Тротуар"
+        },
+        {
+            "artikel": "der",
+            "word": "Radfahrer",
+            "translate_ru": "Велосипедист"
+        },
+        {
+            "artikel": "das",
+            "word": "Knie",
+            "translate_ru": "Колено"
+        },
+        {
+            "artikel": "das",
+            "word": "Pflaster",
+            "translate_ru": "Пластырь"
+        },
+        {
+            "artikel": "das",
+            "word": "Rad",
+            "translate_ru": "Велосипед"
+        },
+        {
+            "artikel": "der",
+            "word": "Liebling",
+            "translate_ru": "Любимый"
+        },
+        {
+            "artikel": "das",
+            "word": "Benzin",
+            "translate_ru": "Бензин"
         }
     ],
     "Verben": [
@@ -108,6 +193,54 @@
             "translate_ru": "заметить",
             "perfekt form": "gemerkt",
             "perfekt begin form": "hat"
+        },
+        {
+            "word": "anschauen",
+            "translate_ru": "смотреть на",
+            "perfekt form": "angeschaut",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "wegfahren",
+            "translate_ru": "уехать",
+            "perfekt form": "weggefahren",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "springen",
+            "translate_ru": "прыгать",
+            "perfekt form": "gesprungen",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "tanken",
+            "translate_ru": "заправить",
+            "perfekt form": "getankt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "abbiegen",
+            "translate_ru": "повернуть",
+            "perfekt form": "abgebogen",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "stürzen",
+            "translate_ru": "упасть",
+            "perfekt form": "gestürzt",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "kleben",
+            "translate_ru": "клеить",
+            "perfekt form": "geklebt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "stehen bleiben",
+            "translate_ru": "остановиться",
+            "perfekt form": "stehen gebleiben",
+            "perfekt begin form": "ist"
         }
     ],
     "Adjektive": [
@@ -134,6 +267,18 @@
         {
             "word": "weil",
             "translate_ru": "потому-что"
+        },
+        {
+            "word": "entlang",
+            "translate_ru": "вдоль"
+        },
+        {
+            "word": "vorbei an",
+            "translate_ru": "мимо"
+        },
+        {
+            "word": "gegenüber",
+            "translate_ru": "напротив"
         }
     ]
 }
