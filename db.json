@@ -149,6 +149,156 @@
             "artikel": "das",
             "word": "Benzin",
             "translate_ru": "Бензин"
+        },
+        {
+            "artikel": "die",
+            "word": "Batterie",
+            "translate_ru": "Батарея"
+        },
+        {
+            "artikel": "der",
+            "word": "Verkehr",
+            "translate_ru": "Движение"
+        },
+        {
+            "artikel": "die",
+            "word": "Baustelle",
+            "translate_ru": "Строительные работы"
+        },
+        {
+            "artikel": "die",
+            "word": "Spur",
+            "translate_ru": "Полоса движения"
+        },
+        {
+            "artikel": "die",
+            "word": "Fahrbahn",
+            "translate_ru": "Проезжая часть"
+        },
+        {
+            "artikel": "die",
+            "word": "Eis",
+            "translate_ru": "Лёд"
+        },
+        {
+            "artikel": "der",
+            "word": "Nebel",
+            "translate_ru": "Туман"
+        },
+        {
+            "artikel": "der",
+            "word": "Sturm",
+            "translate_ru": "Шторм"
+        },
+        {
+            "artikel": "das",
+            "word": "Gewitter",
+            "translate_ru": "Гроза"
+        },
+        {
+            "artikel": "das",
+            "word": "Chaos",
+            "translate_ru": "Хаос"
+        },
+        {
+            "artikel": "die",
+            "word": "Situation",
+            "translate_ru": "Ситуация"
+        },
+        {
+            "artikel": "der",
+            "word": "Wagen",
+            "translate_ru": "Транспорт"
+        },
+        {
+            "artikel": "die",
+            "word": "Region",
+            "translate_ru": "Регион"
+        },
+        {
+            "artikel": "die",
+            "word": "Hitze",
+            "translate_ru": "Жара"
+        },
+        {
+            "artikel": "das",
+            "word": "Teil",
+            "translate_ru": "Часть"
+        },
+        {
+            "artikel": "die",
+            "word": "Gefahr",
+            "translate_ru": "Опасность"
+        },
+        {
+            "artikel": "der",
+            "word": "Bürger",
+            "translate_ru": "Гражданин"
+        },
+        {
+            "artikel": "die",
+            "word": "Aussicht",
+            "translate_ru": "Прогноз"
+        },
+        {
+            "artikel": "der",
+            "word": "Start",
+            "translate_ru": "Старт"
+        },
+        {
+            "artikel": "die",
+            "word": "Landung",
+            "translate_ru": "Посадка"
+        },
+        {
+            "artikel": "der",
+            "word": "Flughafen",
+            "translate_ru": "Аэропорт"
+        },
+        {
+            "artikel": "der",
+            "word": "Abflug",
+            "translate_ru": "Взлёт"
+        },
+        {
+            "artikel": "das",
+            "word": "Moped",
+            "translate_ru": "Мопед"
+        },
+        {
+            "artikel": "das",
+            "word": "Verkehrsmittel",
+            "translate_ru": "Транспортное стредство"
+        },
+        {
+            "artikel": "der",
+            "word": "Fußgänger",
+            "translate_ru": "Пешеход"
+        },
+        {
+            "artikel": "der",
+            "word": "Strafzettel",
+            "translate_ru": "штрафная квитанция"
+        },
+        {
+            "artikel": "die",
+            "word": "Strafe",
+            "translate_ru": "Штраф"
+        },
+        {
+            "artikel": "der",
+            "word": "Unterschied",
+            "translate_ru": "Различие"
+        },
+        {
+            "artikel": "das",
+            "word": "Land",
+            "translate_ru": "Страна"
+        },
+        {
+            "artikel": "das",
+            "word": "Tempo",
+            "translate_ru": "Темп"
         }
     ],
     "Verben": [
@@ -241,12 +391,134 @@
             "translate_ru": "остановиться",
             "perfekt form": "stehen gebleiben",
             "perfekt begin form": "ist"
+        },
+        {
+            "word": "überholen",
+            "translate_ru": "обгонять",
+            "perfekt form": "überholt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "sorgen",
+            "translate_ru": "беспокоиться",
+            "perfekt form": "gesorgt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "vermeiden",
+            "translate_ru": "избегать",
+            "perfekt form": "vermieden",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "versprechen",
+            "translate_ru": "обещать",
+            "perfekt form": "versprochen",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "verhindern",
+            "translate_ru": "предотвращать",
+            "perfekt form": "verhindert",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "starten",
+            "translate_ru": "стартовать",
+            "perfekt form": "gestartet",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "landen",
+            "translate_ru": "приземляться",
+            "perfekt form": "gelanden",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "auffallen",
+            "translate_ru": "привлечь внимание",
+            "perfekt form": "aufgefallen",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "hupen",
+            "translate_ru": "сигналить",
+            "perfekt form": "gehupt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "bremsen",
+            "translate_ru": "тормозить",
+            "perfekt form": "gebremst",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "reden",
+            "translate_ru": "беседовать",
+            "perfekt form": "geredet",
+            "perfekt begin form": "hat"
         }
     ],
     "Adjektive": [
         {
             "word": "glücklich",
             "translate_ru": "счастливый"
+        },
+        {
+            "word": "leer",
+            "translate_ru": "пустой"
+        },
+        {
+            "word": "rechtzeitig",
+            "translate_ru": "своевременный"
+        },
+        {
+            "word": "vorsichtig",
+            "translate_ru": "осторожно"
+        },
+        {
+            "word": "neblig",
+            "translate_ru": "туманный"
+        },
+        {
+            "word": "komplett",
+            "translate_ru": "полный"
+        },
+        {
+            "word": "stundenlang",
+            "translate_ru": "часами"
+        },
+        {
+            "word": "kräftig",
+            "translate_ru": "сильный"
+        },
+        {
+            "word": "sommerlich",
+            "translate_ru": "летний"
+        },
+        {
+            "word": "dicht",
+            "translate_ru": "густой"
+        },
+        {
+            "word": "voraussichtlich",
+            "translate_ru": "предварительный"
+        },
+        {
+            "word": "gefährlich",
+            "translate_ru": "опасный"
+        },
+        {
+            "word": "anstrengend",
+            "translate_ru": "утомительный"
+        },
+        {
+            "word": "furchtbar",
+            "translate_ru": "ужасный"
+        },
+        {
+            "word": "öffentlich",
+            "translate_ru": "публичный"
         }
     ],
     "Fragen": [
@@ -279,6 +551,10 @@
         {
             "word": "gegenüber",
             "translate_ru": "напротив"
+        },
+        {
+            "word": "wegen",
+            "translate_ru": "из-за"
         }
     ]
 }
