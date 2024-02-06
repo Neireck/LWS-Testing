@@ -162,7 +162,9 @@ while j == 1:
             print('\nВыберите тип слова из списка ниже:')
             for k, v in enumerate([key for key in db]):
                 print(f'{k+1}) {v}')
-            word_type = int(input('\nВаш выбор: '))
+            print('0) Назад')
+            try: word_type = int(input('\nВаш выбор: '))
+            except ValueError: word_type = None
             #print('')
 
             if word_type == 1:
@@ -208,6 +210,11 @@ while j == 1:
                     "word":         input('Слово DE: '),
                     "translate_ru": input('Перевод RU: ')
                 })
+            elif word_type == 0:
+                break
+            else:
+                print('\nОшибка ввода. Повторите ещё раз!')
+                continue
             
             create_db(db)
 
