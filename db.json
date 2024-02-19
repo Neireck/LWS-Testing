@@ -299,6 +299,191 @@
             "artikel": "das",
             "word": "Tempo",
             "translate_ru": "Темп"
+        },
+        {
+            "artikel": "die",
+            "word": "Ostsee",
+            "translate_ru": "Балтийское море"
+        },
+        {
+            "artikel": "die",
+            "word": "Wahl",
+            "translate_ru": "Выбор"
+        },
+        {
+            "artikel": "die",
+            "word": "Unterkunft",
+            "translate_ru": "Ночлег"
+        },
+        {
+            "artikel": "der",
+            "word": "Traum",
+            "translate_ru": "Мечта"
+        },
+        {
+            "artikel": "die",
+            "word": "Küste",
+            "translate_ru": "Побережье"
+        },
+        {
+            "artikel": "die",
+            "word": "Insel",
+            "translate_ru": "Остров"
+        },
+        {
+            "artikel": "das",
+            "word": "Gebirde",
+            "translate_ru": "Горы"
+        },
+        {
+            "artikel": "der",
+            "word": "Berg",
+            "translate_ru": "Гора"
+        },
+        {
+            "artikel": "der",
+            "word": "Sand",
+            "translate_ru": "Песок"
+        },
+        {
+            "artikel": "der",
+            "word": "Bauernhof",
+            "translate_ru": "Хозяйство"
+        },
+        {
+            "artikel": "die",
+            "word": "Kuh",
+            "translate_ru": "Корова"
+        },
+        {
+            "artikel": "das",
+            "word": "Pferd",
+            "translate_ru": "Лошадь"
+        },
+        {
+            "artikel": "das",
+            "word": "Schaf",
+            "translate_ru": "Овца"
+        },
+        {
+            "artikel": "das",
+            "word": "Boot",
+            "translate_ru": "Лодка"
+        },
+        {
+            "artikel": "das",
+            "word": "Festival",
+            "translate_ru": "Фестиваль"
+        },
+        {
+            "artikel": "die",
+            "word": "Sehenswürdigkeit",
+            "translate_ru": "Достопримечательность"
+        },
+        {
+            "artikel": "die",
+            "word": "Pension",
+            "translate_ru": "Пансион"
+        },
+        {
+            "artikel": "der",
+            "word": "Blick",
+            "translate_ru": "Вид"
+        },
+        {
+            "artikel": "das",
+            "word": "Einzelzimmer",
+            "translate_ru": "Одиночный номер"
+        },
+        {
+            "artikel": "das",
+            "word": "Doppelzimmer",
+            "translate_ru": "Номер на двоих"
+        },
+        {
+            "artikel": "das",
+            "word": "WC",
+            "translate_ru": "Туалет"
+        },
+        {
+            "artikel": "die",
+            "word": "Halbpension",
+            "translate_ru": "Неполный пансион"
+        },
+        {
+            "artikel": "das",
+            "word": "Camping",
+            "translate_ru": "Кемпинг"
+        },
+        {
+            "artikel": "die",
+            "word": "Tour",
+            "translate_ru": "Тур"
+        },
+        {
+            "artikel": "das",
+            "word": "Tal",
+            "translate_ru": "Долина"
+        },
+        {
+            "artikel": "die",
+            "word": "Wiese",
+            "translate_ru": "Луг"
+        },
+        {
+            "artikel": "die",
+            "word": "Lage",
+            "translate_ru": "Положение"
+        },
+        {
+            "artikel": "das",
+            "word": "Schloss",
+            "translate_ru": "Замок"
+        },
+        {
+            "artikel": "die",
+            "word": "Übernachtung",
+            "translate_ru": "Ночёвка"
+        },
+        {
+            "artikel": "der",
+            "word": "Dom",
+            "translate_ru": "Собор"
+        },
+        {
+            "artikel": "die",
+            "word": "Jugendherberge",
+            "translate_ru": "Молодёжная турбаза"
+        },
+        {
+            "artikel": "der",
+            "word": "Schaden",
+            "translate_ru": "Повреждение"
+        },
+        {
+            "artikel": "der",
+            "word": "Aufenthalt",
+            "translate_ru": "Остановка"
+        },
+        {
+            "artikel": "das",
+            "word": "Reisebüro",
+            "translate_ru": "Бюро путешествий"
+        },
+        {
+            "artikel": "der",
+            "word": "Spezialist",
+            "translate_ru": "Специалист"
+        },
+        {
+            "artikel": "der",
+            "word": "Angestellte",
+            "translate_ru": "Служащий"
+        },
+        {
+            "artikel": "der",
+            "word": "Verbindung",
+            "translate_ru": "Соединение"
         }
     ],
     "Verben": [
@@ -457,6 +642,24 @@
             "translate_ru": "беседовать",
             "perfekt form": "geredet",
             "perfekt begin form": "hat"
+        },
+        {
+            "word": "besichtigen",
+            "translate_ru": "посещать",
+            "perfekt form": "besichtigt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "baden",
+            "translate_ru": "купаться",
+            "perfekt form": "gebadet",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "buchen",
+            "translate_ru": "бронировать",
+            "perfekt form": "gebucht",
+            "perfekt begin form": "hat"
         }
     ],
     "Adjektive": [
@@ -519,6 +722,38 @@
         {
             "word": "öffentlich",
             "translate_ru": "публичный"
+        },
+        {
+            "word": "begeistert",
+            "translate_ru": "восхищённый"
+        },
+        {
+            "word": "kühl",
+            "translate_ru": "прохладный"
+        },
+        {
+            "word": "echt",
+            "translate_ru": "реальный"
+        },
+        {
+            "word": "trocken",
+            "translate_ru": "сухой"
+        },
+        {
+            "word": "romantisch",
+            "translate_ru": "романтический"
+        },
+        {
+            "word": "historisch",
+            "translate_ru": "исторический"
+        },
+        {
+            "word": "zahlreich",
+            "translate_ru": "многочисленный"
+        },
+        {
+            "word": "berühmt",
+            "translate_ru": "знаменитый"
         }
     ],
     "Fragen": [
@@ -555,6 +790,22 @@
         {
             "word": "wegen",
             "translate_ru": "из-за"
+        },
+        {
+            "word": "dagegen",
+            "translate_ru": "против"
+        },
+        {
+            "word": "weiter",
+            "translate_ru": "дальше"
+        },
+        {
+            "word": "vor allem",
+            "translate_ru": "прежде всего"
+        },
+        {
+            "word": "inklusive",
+            "translate_ru": "включая"
         }
     ]
 }
