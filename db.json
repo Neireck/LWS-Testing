@@ -660,6 +660,12 @@
             "translate_ru": "бронировать",
             "perfekt form": "gebucht",
             "perfekt begin form": "hat"
+        },
+        {
+            "word": "erledigen",
+            "translate_ru": "выполнять",
+            "perfekt form": "erledigt",
+            "perfekt begin form": "hat"
         }
     ],
     "Adjektive": [
@@ -754,6 +760,58 @@
         {
             "word": "berühmt",
             "translate_ru": "знаменитый"
+        },
+        {
+            "word": "glücklich",
+            "translate_ru": "счастливый"
+        },
+        {
+            "word": "traurig",
+            "translate_ru": "грустный"
+        },
+        {
+            "word": "müde",
+            "translate_ru": "уставший"
+        },
+        {
+            "word": "sauer",
+            "translate_ru": "кислый"
+        },
+        {
+            "word": "wütend",
+            "translate_ru": "злой"
+        },
+        {
+            "word": "nervös",
+            "translate_ru": "нервный"
+        },
+        {
+            "word": "ruhig",
+            "translate_ru": "спокойный"
+        },
+        {
+            "word": "erleichtert",
+            "translate_ru": "облегчённый"
+        },
+        {
+            "word": "gelassen",
+            "translate_ru": "раслабленный"
+        },
+        {
+            "word": "optimistisch",
+            "translate_ru": "оптимистичный"
+        },
+        {
+            "word": "konzentriert",
+            "translate_ru": "сконцентрированный"
+        },
+        {
+            "word": "lustig",
+            "translate_ru": "забавный"
+        },
+        {
+            "word": "nachdenklich",
+            "translate_ru": "задумчивый"
         }
     ],
     "Fragen": [
