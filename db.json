@@ -864,6 +864,18 @@
         {
             "word": "inklusive",
             "translate_ru": "включая"
+        },
+        {
+            "word": "dahin",
+            "translate_ru": "туда"
+        },
+        {
+            "word": "hierhin",
+            "translate_ru": "сюда"
+        },
+        {
+            "word": "dort",
+            "translate_ru": "там"
         }
     ]
 }
