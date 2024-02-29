@@ -484,6 +484,21 @@
             "artikel": "der",
             "word": "Verbindung",
             "translate_ru": "Соединение"
+        },
+        {
+            "artikel": "die",
+            "word": "Führung",
+            "translate_ru": "Управление"
+        },
+        {
+            "artikel": "die",
+            "word": "Altstadt",
+            "translate_ru": "Старый город"
+        },
+        {
+            "artikel": "die",
+            "word": "Ausstellung",
+            "translate_ru": "Выставка"
         }
     ],
     "Verben": [
@@ -666,6 +681,48 @@
             "translate_ru": "выполнять",
             "perfekt form": "erledigt",
             "perfekt begin form": "hat"
+        },
+        {
+            "word": "surfen",
+            "translate_ru": "cёрфить",
+            "perfekt form": "gesurft",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "einpacken",
+            "translate_ru": "упаковывать",
+            "perfekt form": "eingepackt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "einigen",
+            "translate_ru": "договориться",
+            "perfekt form": "geeinigt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "übernachten",
+            "translate_ru": "переночевать",
+            "perfekt form": "übernachtet",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "annehmen",
+            "translate_ru": "принять",
+            "perfekt form": "anhenommen",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "ablehnen",
+            "translate_ru": "отклонить",
+            "perfekt form": "abgelehnt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "faulenzen",
+            "translate_ru": "бездельничать",
+            "perfekt form": "gefaulenzt",
+            "perfekt begin form": "hat"
         }
     ],
     "Adjektive": [
@@ -812,6 +869,14 @@
         {
             "word": "nachdenklich",
             "translate_ru": "задумчивый"
+        },
+        {
+            "word": "natürlich",
+            "translate_ru": "натуральный"
+        },
+        {
+            "word": "bekannt",
+            "translate_ru": "знакомый"
         }
     ],
     "Fragen": [
