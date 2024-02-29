@@ -941,6 +941,22 @@
         {
             "word": "dort",
             "translate_ru": "там"
+        },
+        {
+            "word": "nirgends",
+            "translate_ru": "нигде"
+        },
+        {
+            "word": "nirgenwo",
+            "translate_ru": "никуда"
+        },
+        {
+            "word": "dagegen sein",
+            "translate_ru": "быть против этого"
+        },
+        {
+            "word": "dafür sein",
+            "translate_ru": "быть за это"
         }
     ]
 }
