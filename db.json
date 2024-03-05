@@ -136,11 +136,6 @@
             "translate_ru": "Пластырь"
         },
         {
-            "artikel": "das",
-            "word": "Rad",
-            "translate_ru": "Велосипед"
-        },
-        {
             "artikel": "der",
             "word": "Liebling",
             "translate_ru": "Любимый"
@@ -499,6 +494,226 @@
             "artikel": "die",
             "word": "Ausstellung",
             "translate_ru": "Выставка"
+        },
+        {
+            "artikel": "die",
+            "word": "Früh",
+            "translate_ru": "Рано"
+        },
+        {
+            "artikel": "der",
+            "word": "Handschuh",
+            "translate_ru": "Перчатка"
+        },
+        {
+            "artikel": "die",
+            "word": "Kauffrau",
+            "translate_ru": "Коммерсантка"
+        },
+        {
+            "artikel": "die",
+            "word": "Krawatte",
+            "translate_ru": "Галстук"
+        },
+        {
+            "artikel": "der",
+            "word": "Lohn",
+            "translate_ru": "Зарплата"
+        },
+        {
+            "artikel": "der",
+            "word": "Luftballon",
+            "translate_ru": "Воздушный шарик"
+        },
+        {
+            "artikel": "die",
+            "word": "Lust",
+            "translate_ru": "Настроение"
+        },
+        {
+            "artikel": "der",
+            "word": "Ohrring",
+            "translate_ru": "Серьга"
+        },
+        {
+            "artikel": "die",
+            "word": "Unverschämtheit",
+            "translate_ru": "Наглость"
+        },
+        {
+            "artikel": "das",
+            "word": "Verdienst",
+            "translate_ru": "Заслуга"
+        },
+        {
+            "artikel": "der",
+            "word": "Zwang",
+            "translate_ru": "Насилие"
+        },
+        {
+            "artikel": "der",
+            "word": "Wunsch",
+            "translate_ru": "Желание"
+        },
+        {
+            "artikel": "der",
+            "word": "Besen",
+            "translate_ru": "Метла"
+        },
+        {
+            "artikel": "die",
+            "word": "Blätter",
+            "translate_ru": "Листва"
+        },
+        {
+            "artikel": "der",
+            "word": "Dünger",
+            "translate_ru": "Удобрение"
+        },
+        {
+            "artikel": "der",
+            "word": "Gartenzaun",
+            "translate_ru": "Садовая изгородь"
+        },
+        {
+            "artikel": "die",
+            "word": "Harke",
+            "translate_ru": "Грабли для листвы"
+        },
+        {
+            "artikel": "der",
+            "word": "Rechen",
+            "translate_ru": "Грабли для земли"
+        },
+        {
+            "artikel": "der",
+            "word": "Rasen",
+            "translate_ru": "Газон"
+        },
+        {
+            "artikel": "die",
+            "word": "Schubkarre",
+            "translate_ru": "Тачка для газона"
+        },
+        {
+            "artikel": "das",
+            "word": "Unkraut",
+            "translate_ru": "Сорняк"
+        },
+        {
+            "artikel": "die",
+            "word": "Unkräuter",
+            "translate_ru": "Сорняки"
+        },
+        {
+            "artikel": "der",
+            "word": "Spachtel",
+            "translate_ru": "Шпатель"
+        },
+        {
+            "artikel": "die",
+            "word": "Motorhaube",
+            "translate_ru": "Капот"
+        },
+        {
+            "artikel": "der",
+            "word": "Scheibenwischer",
+            "translate_ru": "Дворники"
+        },
+        {
+            "artikel": "der",
+            "word": "Scheinwerfer",
+            "translate_ru": "Передние фары"
+        },
+        {
+            "artikel": "der",
+            "word": "Reifen",
+            "translate_ru": "Шина"
+        },
+        {
+            "artikel": "der",
+            "word": "Tank",
+            "translate_ru": "Бензобак"
+        },
+        {
+            "artikel": "das",
+            "word": "Fenster",
+            "translate_ru": "Окно"
+        },
+        {
+            "artikel": "die",
+            "word": "Scheibe",
+            "translate_ru": "Стекло"
+        },
+        {
+            "artikel": "der",
+            "word": "Türgriff",
+            "translate_ru": "Дверная ручка"
+        },
+        {
+            "artikel": "der",
+            "word": "Blinker",
+            "translate_ru": "Поворотник"
+        },
+        {
+            "artikel": "der",
+            "word": "Auspuff",
+            "translate_ru": "Выхлопная труба"
+        },
+        {
+            "artikel": "die",
+            "word": "Stoßstange",
+            "translate_ru": "Бампер"
+        },
+        {
+            "artikel": "der",
+            "word": "Außenspiegel",
+            "translate_ru": "Внешнее зеркало"
+        },
+        {
+            "artikel": "der",
+            "word": "Innenspiegel",
+            "translate_ru": "Внутреннее зеркало"
+        },
+        {
+            "artikel": "das",
+            "word": "Rad",
+            "translate_ru": "Колесо"
+        },
+        {
+            "artikel": "die",
+            "word": "Radkappen",
+            "translate_ru": "Колпаки колёс"
+        },
+        {
+            "artikel": "die",
+            "word": "Tür",
+            "translate_ru": "Дверь"
+        },
+        {
+            "artikel": "die",
+            "word": "Türen",
+            "translate_ru": "Двери"
+        },
+        {
+            "artikel": "das",
+            "word": "Rücklicht",
+            "translate_ru": "Задние фары"
+        },
+        {
+            "artikel": "die",
+            "word": "Windschutzscheibe",
+            "translate_ru": "Лобовое стекло"
+        },
+        {
+            "artikel": "die",
+            "word": "Antenne",
+            "translate_ru": "Антенна"
+        },
+        {
+            "artikel": "das",
+            "word": "Ersatzrad",
+            "translate_ru": "Запасное колесо"
         }
     ],
     "Verben": [
@@ -723,6 +938,48 @@
             "translate_ru": "бездельничать",
             "perfekt form": "gefaulenzt",
             "perfekt begin form": "hat"
+        },
+        {
+            "word": "aufräumen",
+            "translate_ru": "почистить",
+            "perfekt form": "aufgeräumt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "aussteigen",
+            "translate_ru": "высаживаться",
+            "perfekt form": "ausgestiegen",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "halten",
+            "translate_ru": "держать",
+            "perfekt form": "gehalten",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "richten",
+            "translate_ru": "адресовать",
+            "perfekt form": "gerichtet",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "sammeln",
+            "translate_ru": "собирать",
+            "perfekt form": "gesammelt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "schaffen",
+            "translate_ru": "создавать",
+            "perfekt form": "geschaffen",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "schulden",
+            "translate_ru": "задолжать",
+            "perfekt form": "geschuldet",
+            "perfekt begin form": "hat"
         }
     ],
     "Adjektive": [
@@ -877,6 +1134,34 @@
         {
             "word": "bekannt",
             "translate_ru": "знакомый"
+        },
+        {
+            "word": "ähnlich",
+            "translate_ru": "похожий"
+        },
+        {
+            "word": "bunt",
+            "translate_ru": "красочный"
+        },
+        {
+            "word": "durchschnittlich",
+            "translate_ru": "обычный"
+        },
+        {
+            "word": "furchtbar",
+            "translate_ru": "страшный"
+        },
+        {
+            "word": "nett",
+            "translate_ru": "мило"
+        },
+        {
+            "word": "notwendig",
+            "translate_ru": "необходимый"
+        },
+        {
+            "word": "respektvoll",
+            "translate_ru": "уважительный"
         }
     ],
     "Fragen": [
