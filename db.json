@@ -1,1 +1,1393 @@
-{"Substantive": [{"artikel": "der", "word": "Nachbar", "translate_ru": "Сосед"}, {"artikel": "der", "word": "Einkauf", "translate_ru": "Покупка"}, {"artikel": "das", "word": "Zentrum", "translate_ru": "Центр"}, {"artikel": "das", "word": "Gefühl", "translate_ru": "Чувства"}, {"artikel": "der", "word": "Anfang", "translate_ru": "Начало"}, {"artikel": "der", "word": "Mensch", "translate_ru": "Человек"}, {"artikel": "der", "word": "Arbeitgeber", "translate_ru": "Работодатель"}, {"artikel": "die", "word": "Arbeitgeberin", "translate_ru": "Работодательница"}, {"artikel": "der", "word": "Umzug", "translate_ru": "Переезд"}, {"artikel": "die", "word": "Sachen", "translate_ru": "Вещи"}, {"artikel": "der", "word": "Wecker", "translate_ru": "Будильник"}, {"artikel": "der", "word": "Arbeitstag", "translate_ru": "Рабочий день"}, {"artikel": "die", "word": "Erfahrung", "translate_ru": "Опыт"}, {"artikel": "der", "word": "Zoo", "translate_ru": "Зоопарк"}, {"artikel": "der", "word": "Tiger", "translate_ru": "Тигр"}, {"artikel": "das", "word": "Zebra", "translate_ru": "Зебра"}, {"artikel": "die", "word": "Richtung", "translate_ru": "Направление"}, {"artikel": "der", "word": "Fluss", "translate_ru": "Река"}, {"artikel": "die", "word": "Kreuzung", "translate_ru": "Перекрёсток"}, {"artikel": "die", "word": "Ausfahrt", "translate_ru": "Выезд"}, {"artikel": "der", "word": "Kopierer", "translate_ru": "Ксерокс"}, {"artikel": "die", "word": "Cafeteria", "translate_ru": "Кафетерий"}, {"artikel": "der", "word": "Stau", "translate_ru": "Затор"}, {"artikel": "der", "word": "Bürgersteig", "translate_ru": "Тротуар"}, {"artikel": "der", "word": "Radfahrer", "translate_ru": "Велосипедист"}, {"artikel": "das", "word": "Knie", "translate_ru": "Колено"}, {"artikel": "das", "word": "Pflaster", "translate_ru": "Пластырь"}, {"artikel": "der", "word": "Liebling", "translate_ru": "Любимый"}, {"artikel": "das", "word": "Benzin", "translate_ru": "Бензин"}, {"artikel": "die", "word": "Batterie", "translate_ru": "Батарея"}, {"artikel": "der", "word": "Verkehr", "translate_ru": "Движение"}, {"artikel": "die", "word": "Baustelle", "translate_ru": "Строительные работы"}, {"artikel": "die", "word": "Spur", "translate_ru": "Полоса движения"}, {"artikel": "die", "word": "Fahrbahn", "translate_ru": "Проезжая часть"}, {"artikel": "die", "word": "Eis", "translate_ru": "Лёд"}, {"artikel": "der", "word": "Nebel", "translate_ru": "Туман"}, {"artikel": "der", "word": "Sturm", "translate_ru": "Шторм"}, {"artikel": "das", "word": "Gewitter", "translate_ru": "Гроза"}, {"artikel": "das", "word": "Chaos", "translate_ru": "Хаос"}, {"artikel": "die", "word": "Situation", "translate_ru": "Ситуация"}, {"artikel": "der", "word": "Wagen", "translate_ru": "Транспорт"}, {"artikel": "die", "word": "Region", "translate_ru": "Регион"}, {"artikel": "die", "word": "Hitze", "translate_ru": "Жара"}, {"artikel": "das", "word": "Teil", "translate_ru": "Часть"}, {"artikel": "die", "word": "Gefahr", "translate_ru": "Опасность"}, {"artikel": "der", "word": "Bürger", "translate_ru": "Гражданин"}, {"artikel": "die", "word": "Aussicht", "translate_ru": "Прогноз"}, {"artikel": "der", "word": "Start", "translate_ru": "Старт"}, {"artikel": "die", "word": "Landung", "translate_ru": "Посадка"}, {"artikel": "der", "word": "Flughafen", "translate_ru": "Аэропорт"}, {"artikel": "der", "word": "Abflug", "translate_ru": "Взлёт"}, {"artikel": "das", "word": "Moped", "translate_ru": "Мопед"}, {"artikel": "das", "word": "Verkehrsmittel", "translate_ru": "Транспортное стредство"}, {"artikel": "der", "word": "Fußgänger", "translate_ru": "Пешеход"}, {"artikel": "der", "word": "Strafzettel", "translate_ru": "штрафная квитанция"}, {"artikel": "die", "word": "Strafe", "translate_ru": "Штраф"}, {"artikel": "der", "word": "Unterschied", "translate_ru": "Различие"}, {"artikel": "das", "word": "Land", "translate_ru": "Страна"}, {"artikel": "das", "word": "Tempo", "translate_ru": "Темп"}, {"artikel": "die", "word": "Ostsee", "translate_ru": "Балтийское море"}, {"artikel": "die", "word": "Wahl", "translate_ru": "Выбор"}, {"artikel": "die", "word": "Unterkunft", "translate_ru": "Ночлег"}, {"artikel": "der", "word": "Traum", "translate_ru": "Мечта"}, {"artikel": "die", "word": "Küste", "translate_ru": "Побережье"}, {"artikel": "die", "word": "Insel", "translate_ru": "Остров"}, {"artikel": "das", "word": "Gebirde", "translate_ru": "Горы"}, {"artikel": "der", "word": "Berg", "translate_ru": "Гора"}, {"artikel": "der", "word": "Sand", "translate_ru": "Песок"}, {"artikel": "der", "word": "Bauernhof", "translate_ru": "Хозяйство"}, {"artikel": "die", "word": "Kuh", "translate_ru": "Корова"}, {"artikel": "das", "word": "Pferd", "translate_ru": "Лошадь"}, {"artikel": "das", "word": "Schaf", "translate_ru": "Овца"}, {"artikel": "das", "word": "Boot", "translate_ru": "Лодка"}, {"artikel": "das", "word": "Festival", "translate_ru": "Фестиваль"}, {"artikel": "die", "word": "Sehenswürdigkeit", "translate_ru": "Достопримечательность"}, {"artikel": "die", "word": "Pension", "translate_ru": "Пансион"}, {"artikel": "der", "word": "Blick", "translate_ru": "Вид"}, {"artikel": "das", "word": "Einzelzimmer", "translate_ru": "Одиночный номер"}, {"artikel": "das", "word": "Doppelzimmer", "translate_ru": "Номер на двоих"}, {"artikel": "das", "word": "WC", "translate_ru": "Туалет"}, {"artikel": "die", "word": "Halbpension", "translate_ru": "Неполный пансион"}, {"artikel": "das", "word": "Camping", "translate_ru": "Кемпинг"}, {"artikel": "die", "word": "Tour", "translate_ru": "Тур"}, {"artikel": "das", "word": "Tal", "translate_ru": "Долина"}, {"artikel": "die", "word": "Wiese", "translate_ru": "Луг"}, {"artikel": "die", "word": "Lage", "translate_ru": "Положение"}, {"artikel": "das", "word": "Schloss", "translate_ru": "Замок"}, {"artikel": "die", "word": "Übernachtung", "translate_ru": "Ночёвка"}, {"artikel": "der", "word": "Dom", "translate_ru": "Собор"}, {"artikel": "die", "word": "Jugendherberge", "translate_ru": "Молодёжная турбаза"}, {"artikel": "der", "word": "Schaden", "translate_ru": "Повреждение"}, {"artikel": "der", "word": "Aufenthalt", "translate_ru": "Остановка"}, {"artikel": "das", "word": "Reisebüro", "translate_ru": "Бюро путешествий"}, {"artikel": "der", "word": "Spezialist", "translate_ru": "Специалист"}, {"artikel": "der", "word": "Angestellte", "translate_ru": "Служащий"}, {"artikel": "der", "word": "Verbindung", "translate_ru": "Соединение"}, {"artikel": "die", "word": "Führung", "translate_ru": "Управление"}, {"artikel": "die", "word": "Altstadt", "translate_ru": "Старый город"}, {"artikel": "die", "word": "Ausstellung", "translate_ru": "Выставка"}, {"artikel": "die", "word": "Früh", "translate_ru": "Рано"}, {"artikel": "der", "word": "Handschuh", "translate_ru": "Перчатка"}, {"artikel": "die", "word": "Kauffrau", "translate_ru": "Коммерсантка"}, {"artikel": "die", "word": "Krawatte", "translate_ru": "Галстук"}, {"artikel": "der", "word": "Lohn", "translate_ru": "Зарплата"}, {"artikel": "der", "word": "Luftballon", "translate_ru": "Воздушный шарик"}, {"artikel": "die", "word": "Lust", "translate_ru": "Настроение"}, {"artikel": "der", "word": "Ohrring", "translate_ru": "Серьга"}, {"artikel": "die", "word": "Unverschämtheit", "translate_ru": "Наглость"}, {"artikel": "das", "word": "Verdienst", "translate_ru": "Заслуга"}, {"artikel": "der", "word": "Zwang", "translate_ru": "Насилие"}, {"artikel": "der", "word": "Wunsch", "translate_ru": "Желание"}, {"artikel": "der", "word": "Besen", "translate_ru": "Метла"}, {"artikel": "die", "word": "Blätter", "translate_ru": "Листва"}, {"artikel": "der", "word": "Dünger", "translate_ru": "Удобрение"}, {"artikel": "der", "word": "Gartenzaun", "translate_ru": "Садовая изгородь"}, {"artikel": "die", "word": "Harke", "translate_ru": "Грабли для листвы"}, {"artikel": "der", "word": "Rechen", "translate_ru": "Грабли для земли"}, {"artikel": "der", "word": "Rasen", "translate_ru": "Газон"}, {"artikel": "die", "word": "Schubkarre", "translate_ru": "Тачка для газона"}, {"artikel": "das", "word": "Unkraut", "translate_ru": "Сорняк"}, {"artikel": "die", "word": "Unkräuter", "translate_ru": "Сорняки"}, {"artikel": "der", "word": "Spachtel", "translate_ru": "Шпатель"}, {"artikel": "die", "word": "Motorhaube", "translate_ru": "Капот"}, {"artikel": "der", "word": "Scheibenwischer", "translate_ru": "Дворники"}, {"artikel": "der", "word": "Scheinwerfer", "translate_ru": "Передние фары"}, {"artikel": "der", "word": "Reifen", "translate_ru": "Шина"}, {"artikel": "der", "word": "Tank", "translate_ru": "Бензобак"}, {"artikel": "das", "word": "Fenster", "translate_ru": "Окно"}, {"artikel": "die", "word": "Scheibe", "translate_ru": "Стекло"}, {"artikel": "der", "word": "Türgriff", "translate_ru": "Дверная ручка"}, {"artikel": "der", "word": "Blinker", "translate_ru": "Поворотник"}, {"artikel": "der", "word": "Auspuff", "translate_ru": "Выхлопная труба"}, {"artikel": "die", "word": "Stoßstange", "translate_ru": "Бампер"}, {"artikel": "der", "word": "Außenspiegel", "translate_ru": "Внешнее зеркало"}, {"artikel": "der", "word": "Innenspiegel", "translate_ru": "Внутреннее зеркало"}, {"artikel": "das", "word": "Rad", "translate_ru": "Колесо"}, {"artikel": "die", "word": "Radkappen", "translate_ru": "Колпаки колёс"}, {"artikel": "die", "word": "Tür", "translate_ru": "Дверь"}, {"artikel": "die", "word": "Türen", "translate_ru": "Двери"}, {"artikel": "das", "word": "Rücklicht", "translate_ru": "Задние фары"}, {"artikel": "die", "word": "Windschutzscheibe", "translate_ru": "Лобовое стекло"}, {"artikel": "die", "word": "Antenne", "translate_ru": "Антенна"}, {"artikel": "das", "word": "Ersatzrad", "translate_ru": "Запасное колесо"}, {"artikel": "die", "word": "Ankunft", "translate_ru": "Прибытие"}, {"artikel": "die", "word": "Mittagsbetreuung", "translate_ru": "Дневной уход"}, {"artikel": "die", "word": "Gebühr", "translate_ru": "Плата"}, {"artikel": "die", "word": "Hektik", "translate_ru": "Суматоха"}, {"artikel": "die", "word": "Krankheit", "translate_ru": "Болезнь"}, {"artikel": "der", "word": "Vordergrund", "translate_ru": "Передний план"}, {"artikel": "der", "word": "Hintergrund", "translate_ru": "Задний план"}, {"artikel": "die", "word": "Bastelarbeit", "translate_ru": "Ремесло"}, {"artikel": "die", "word": "Unterstützung", "translate_ru": "Поддержка"}, {"artikel": "das", "word": "Miteinander", "translate_ru": "Взаимодействие"}, {"artikel": "die", "word": "Jahreszeit", "translate_ru": "Время года"}, {"artikel": "das", "word": "Gemeinschaftsgefühl", "translate_ru": "Общественное чувство"}, {"artikel": "die", "word": "Hausaufgabenbetreuung", "translate_ru": "Уход за домашними заданиями"}, {"artikel": "die", "word": "Hälfte", "translate_ru": "Половина"}], "Verben": [{"word": "ansehen", "translate_ru": "смотрит", "perfekt form": "angesehen", "perfekt begin form": "hat"}, {"word": "klappen", "translate_ru": "сработать", "perfekt form": "geklappt", "perfekt begin form": "hat"}, {"word": "umziehen", "translate_ru": "переезжать", "perfekt form": "umgezogen", "perfekt begin form": "ist"}, {"word": "kennenlernen", "translate_ru": "познакомились", "perfekt form": "kennengelernt", "perfekt begin form": "hat"}, {"word": "auspacken", "translate_ru": "распаковывать", "perfekt form": "ausgepacht", "perfekt begin form": "hat"}, {"word": "einschlafen", "translate_ru": "уснуть", "perfekt form": "eingeschlafen", "perfekt begin form": "ist"}, {"word": "merken", "translate_ru": "заметить", "perfekt form": "gemerkt", "perfekt begin form": "hat"}, {"word": "anschauen", "translate_ru": "смотреть на", "perfekt form": "angeschaut", "perfekt begin form": "hat"}, {"word": "wegfahren", "translate_ru": "уехать", "perfekt form": "weggefahren", "perfekt begin form": "ist"}, {"word": "springen", "translate_ru": "прыгать", "perfekt form": "gesprungen", "perfekt begin form": "ist"}, {"word": "tanken", "translate_ru": "заправить", "perfekt form": "getankt", "perfekt begin form": "hat"}, {"word": "abbiegen", "translate_ru": "повернуть", "perfekt form": "abgebogen", "perfekt begin form": "ist"}, {"word": "stürzen", "translate_ru": "упасть", "perfekt form": "gestürzt", "perfekt begin form": "ist"}, {"word": "kleben", "translate_ru": "клеить", "perfekt form": "geklebt", "perfekt begin form": "hat"}, {"word": "stehen bleiben", "translate_ru": "остановиться", "perfekt form": "stehen gebleiben", "perfekt begin form": "ist"}, {"word": "überholen", "translate_ru": "обгонять", "perfekt form": "überholt", "perfekt begin form": "hat"}, {"word": "sorgen", "translate_ru": "беспокоиться", "perfekt form": "gesorgt", "perfekt begin form": "hat"}, {"word": "vermeiden", "translate_ru": "избегать", "perfekt form": "vermieden", "perfekt begin form": "hat"}, {"word": "versprechen", "translate_ru": "обещать", "perfekt form": "versprochen", "perfekt begin form": "hat"}, {"word": "verhindern", "translate_ru": "предотвращать", "perfekt form": "verhindert", "perfekt begin form": "hat"}, {"word": "starten", "translate_ru": "стартовать", "perfekt form": "gestartet", "perfekt begin form": "ist"}, {"word": "landen", "translate_ru": "приземляться", "perfekt form": "gelanden", "perfekt begin form": "ist"}, {"word": "auffallen", "translate_ru": "привлечь внимание", "perfekt form": "aufgefallen", "perfekt begin form": "ist"}, {"word": "hupen", "translate_ru": "сигналить", "perfekt form": "gehupt", "perfekt begin form": "hat"}, {"word": "bremsen", "translate_ru": "тормозить", "perfekt form": "gebremst", "perfekt begin form": "hat"}, {"word": "reden", "translate_ru": "беседовать", "perfekt form": "geredet", "perfekt begin form": "hat"}, {"word": "besichtigen", "translate_ru": "посещать", "perfekt form": "besichtigt", "perfekt begin form": "hat"}, {"word": "baden", "translate_ru": "купаться", "perfekt form": "gebadet", "perfekt begin form": "hat"}, {"word": "buchen", "translate_ru": "бронировать", "perfekt form": "gebucht", "perfekt begin form": "hat"}, {"word": "erledigen", "translate_ru": "выполнять", "perfekt form": "erledigt", "perfekt begin form": "hat"}, {"word": "surfen", "translate_ru": "cёрфить", "perfekt form": "gesurft", "perfekt begin form": "ist"}, {"word": "einpacken", "translate_ru": "упаковывать", "perfekt form": "eingepackt", "perfekt begin form": "hat"}, {"word": "einigen", "translate_ru": "договориться", "perfekt form": "geeinigt", "perfekt begin form": "hat"}, {"word": "übernachten", "translate_ru": "переночевать", "perfekt form": "übernachtet", "perfekt begin form": "hat"}, {"word": "annehmen", "translate_ru": "принять", "perfekt form": "anhenommen", "perfekt begin form": "hat"}, {"word": "ablehnen", "translate_ru": "отклонить", "perfekt form": "abgelehnt", "perfekt begin form": "hat"}, {"word": "faulenzen", "translate_ru": "бездельничать", "perfekt form": "gefaulenzt", "perfekt begin form": "hat"}, {"word": "aufräumen", "translate_ru": "почистить", "perfekt form": "aufgeräumt", "perfekt begin form": "hat"}, {"word": "aussteigen", "translate_ru": "высаживаться", "perfekt form": "ausgestiegen", "perfekt begin form": "ist"}, {"word": "halten", "translate_ru": "держать", "perfekt form": "gehalten", "perfekt begin form": "hat"}, {"word": "richten", "translate_ru": "адресовать", "perfekt form": "gerichtet", "perfekt begin form": "hat"}, {"word": "sammeln", "translate_ru": "собирать", "perfekt form": "gesammelt", "perfekt begin form": "hat"}, {"word": "schaffen", "translate_ru": "создавать", "perfekt form": "geschaffen", "perfekt begin form": "hat"}, {"word": "schulden", "translate_ru": "задолжать", "perfekt form": "geschuldet", "perfekt begin form": "hat"}, {"word": "aussuchen", "translate_ru": "выбирать", "perfekt form": "ausgesucht", "perfekt begin form": "hat"}, {"word": "gelten", "translate_ru": "считаться", "perfekt form": "gegolten", "perfekt begin form": "hat"}, {"word": "beaufsichtigen", "translate_ru": "присматривать", "perfekt form": "beaufsichtigt", "perfekt begin form": "hat"}, {"word": "akzeptieren", "translate_ru": "принимать", "perfekt form": "akzeptiert", "perfekt begin form": "hat"}, {"word": "üben", "translate_ru": "упражняться", "perfekt form": "geübt", "perfekt begin form": "hat"}, {"word": "stärken", "translate_ru": "укреплять", "perfekt form": "gestärkt", "perfekt begin form": "hat"}], "Adjektive": [{"word": "glücklich", "translate_ru": "счастливый"}, {"word": "leer", "translate_ru": "пустой"}, {"word": "rechtzeitig", "translate_ru": "своевременный"}, {"word": "vorsichtig", "translate_ru": "осторожно"}, {"word": "neblig", "translate_ru": "туманный"}, {"word": "komplett", "translate_ru": "полный"}, {"word": "stundenlang", "translate_ru": "часами"}, {"word": "kräftig", "translate_ru": "сильный"}, {"word": "sommerlich", "translate_ru": "летний"}, {"word": "dicht", "translate_ru": "густой"}, {"word": "voraussichtlich", "translate_ru": "предварительный"}, {"word": "gefährlich", "translate_ru": "опасный"}, {"word": "anstrengend", "translate_ru": "утомительный"}, {"word": "furchtbar", "translate_ru": "ужасный"}, {"word": "öffentlich", "translate_ru": "публичный"}, {"word": "begeistert", "translate_ru": "восхищённый"}, {"word": "kühl", "translate_ru": "прохладный"}, {"word": "echt", "translate_ru": "реальный"}, {"word": "trocken", "translate_ru": "сухой"}, {"word": "romantisch", "translate_ru": "романтический"}, {"word": "historisch", "translate_ru": "исторический"}, {"word": "zahlreich", "translate_ru": "многочисленный"}, {"word": "berühmt", "translate_ru": "знаменитый"}, {"word": "glücklich", "translate_ru": "счастливый"}, {"word": "traurig", "translate_ru": "грустный"}, {"word": "müde", "translate_ru": "уставший"}, {"word": "sauer", "translate_ru": "кислый"}, {"word": "wütend", "translate_ru": "злой"}, {"word": "nervös", "translate_ru": "нервный"}, {"word": "ruhig", "translate_ru": "спокойный"}, {"word": "erleichtert", "translate_ru": "облегчённый"}, {"word": "gelassen", "translate_ru": "раслабленный"}, {"word": "optimistisch", "translate_ru": "оптимистичный"}, {"word": "konzentriert", "translate_ru": "сконцентрированный"}, {"word": "lustig", "translate_ru": "забавный"}, {"word": "nachdenklich", "translate_ru": "задумчивый"}, {"word": "natürlich", "translate_ru": "натуральный"}, {"word": "bekannt", "translate_ru": "знакомый"}, {"word": "ähnlich", "translate_ru": "похожий"}, {"word": "bunt", "translate_ru": "красочный"}, {"word": "durchschnittlich", "translate_ru": "обычный"}, {"word": "furchtbar", "translate_ru": "страшный"}, {"word": "nett", "translate_ru": "мило"}, {"word": "notwendig", "translate_ru": "необходимый"}, {"word": "respektvoll", "translate_ru": "уважительный"}, {"word": "geborgen", "translate_ru": "безопасный"}, {"word": "entsprechend", "translate_ru": "подходящий"}, {"word": "selbstständig", "translate_ru": "самостоятельный"}], "Fragen": [{"word": "Was?", "translate_ru": "Что?"}, {"word": "Wo?", "translate_ru": "Где?"}, {"word": "Wann?", "translate_ru": "Когда?"}], "Anderen": [{"word": "weil", "translate_ru": "потому-что"}, {"word": "entlang", "translate_ru": "вдоль"}, {"word": "vorbei an", "translate_ru": "мимо"}, {"word": "gegenüber", "translate_ru": "напротив"}, {"word": "wegen", "translate_ru": "из-за"}, {"word": "dagegen", "translate_ru": "против"}, {"word": "weiter", "translate_ru": "дальше"}, {"word": "vor allem", "translate_ru": "прежде всего"}, {"word": "inklusive", "translate_ru": "включая"}, {"word": "dahin", "translate_ru": "туда"}, {"word": "hierhin", "translate_ru": "сюда"}, {"word": "dort", "translate_ru": "там"}, {"word": "nirgends", "translate_ru": "нигде"}, {"word": "nirgenwo", "translate_ru": "никуда"}, {"word": "dagegen sein", "translate_ru": "быть против этого"}, {"word": "dafür sein", "translate_ru": "быть за это"}, {"word": "obwohl", "translate_ru": "хотя"}, {"word": "nachdem", "translate_ru": "после того как"}, {"word": "jedoch", "translate_ru": "тем не менее"}, {"word": "sondern", "translate_ru": "но"}, {"word": "draußen", "translate_ru": "на улице"}, {"word": "hierzu", "translate_ru": "к этому"}, {"word": "jedoch", "translate_ru": "тем не менее"}]}
+{
+    "Substantive": [
+        {
+            "artikel": "der",
+            "word": "Nachbar",
+            "translate_ru": "Сосед"
+        },
+        {
+            "artikel": "der",
+            "word": "Einkauf",
+            "translate_ru": "Покупка"
+        },
+        {
+            "artikel": "das",
+            "word": "Zentrum",
+            "translate_ru": "Центр"
+        },
+        {
+            "artikel": "das",
+            "word": "Gefühl",
+            "translate_ru": "Чувства"
+        },
+        {
+            "artikel": "der",
+            "word": "Anfang",
+            "translate_ru": "Начало"
+        },
+        {
+            "artikel": "der",
+            "word": "Mensch",
+            "translate_ru": "Человек"
+        },
+        {
+            "artikel": "der",
+            "word": "Arbeitgeber",
+            "translate_ru": "Работодатель"
+        },
+        {
+            "artikel": "die",
+            "word": "Arbeitgeberin",
+            "translate_ru": "Работодательница"
+        },
+        {
+            "artikel": "der",
+            "word": "Umzug",
+            "translate_ru": "Переезд"
+        },
+        {
+            "artikel": "die",
+            "word": "Sachen",
+            "translate_ru": "Вещи"
+        },
+        {
+            "artikel": "der",
+            "word": "Wecker",
+            "translate_ru": "Будильник"
+        },
+        {
+            "artikel": "der",
+            "word": "Arbeitstag",
+            "translate_ru": "Рабочий день"
+        },
+        {
+            "artikel": "die",
+            "word": "Erfahrung",
+            "translate_ru": "Опыт"
+        },
+        {
+            "artikel": "der",
+            "word": "Zoo",
+            "translate_ru": "Зоопарк"
+        },
+        {
+            "artikel": "der",
+            "word": "Tiger",
+            "translate_ru": "Тигр"
+        },
+        {
+            "artikel": "das",
+            "word": "Zebra",
+            "translate_ru": "Зебра"
+        },
+        {
+            "artikel": "die",
+            "word": "Richtung",
+            "translate_ru": "Направление"
+        },
+        {
+            "artikel": "der",
+            "word": "Fluss",
+            "translate_ru": "Река"
+        },
+        {
+            "artikel": "die",
+            "word": "Kreuzung",
+            "translate_ru": "Перекрёсток"
+        },
+        {
+            "artikel": "die",
+            "word": "Ausfahrt",
+            "translate_ru": "Выезд"
+        },
+        {
+            "artikel": "der",
+            "word": "Kopierer",
+            "translate_ru": "Ксерокс"
+        },
+        {
+            "artikel": "die",
+            "word": "Cafeteria",
+            "translate_ru": "Кафетерий"
+        },
+        {
+            "artikel": "der",
+            "word": "Stau",
+            "translate_ru": "Затор"
+        },
+        {
+            "artikel": "der",
+            "word": "Bürgersteig",
+            "translate_ru": "Тротуар"
+        },
+        {
+            "artikel": "der",
+            "word": "Radfahrer",
+            "translate_ru": "Велосипедист"
+        },
+        {
+            "artikel": "das",
+            "word": "Knie",
+            "translate_ru": "Колено"
+        },
+        {
+            "artikel": "das",
+            "word": "Pflaster",
+            "translate_ru": "Пластырь"
+        },
+        {
+            "artikel": "der",
+            "word": "Liebling",
+            "translate_ru": "Любимый"
+        },
+        {
+            "artikel": "das",
+            "word": "Benzin",
+            "translate_ru": "Бензин"
+        },
+        {
+            "artikel": "die",
+            "word": "Batterie",
+            "translate_ru": "Батарея"
+        },
+        {
+            "artikel": "der",
+            "word": "Verkehr",
+            "translate_ru": "Движение"
+        },
+        {
+            "artikel": "die",
+            "word": "Baustelle",
+            "translate_ru": "Строительные работы"
+        },
+        {
+            "artikel": "die",
+            "word": "Spur",
+            "translate_ru": "Полоса движения"
+        },
+        {
+            "artikel": "die",
+            "word": "Fahrbahn",
+            "translate_ru": "Проезжая часть"
+        },
+        {
+            "artikel": "die",
+            "word": "Eis",
+            "translate_ru": "Лёд"
+        },
+        {
+            "artikel": "der",
+            "word": "Nebel",
+            "translate_ru": "Туман"
+        },
+        {
+            "artikel": "der",
+            "word": "Sturm",
+            "translate_ru": "Шторм"
+        },
+        {
+            "artikel": "das",
+            "word": "Gewitter",
+            "translate_ru": "Гроза"
+        },
+        {
+            "artikel": "das",
+            "word": "Chaos",
+            "translate_ru": "Хаос"
+        },
+        {
+            "artikel": "die",
+            "word": "Situation",
+            "translate_ru": "Ситуация"
+        },
+        {
+            "artikel": "der",
+            "word": "Wagen",
+            "translate_ru": "Транспорт"
+        },
+        {
+            "artikel": "die",
+            "word": "Region",
+            "translate_ru": "Регион"
+        },
+        {
+            "artikel": "die",
+            "word": "Hitze",
+            "translate_ru": "Жара"
+        },
+        {
+            "artikel": "das",
+            "word": "Teil",
+            "translate_ru": "Часть"
+        },
+        {
+            "artikel": "die",
+            "word": "Gefahr",
+            "translate_ru": "Опасность"
+        },
+        {
+            "artikel": "der",
+            "word": "Bürger",
+            "translate_ru": "Гражданин"
+        },
+        {
+            "artikel": "die",
+            "word": "Aussicht",
+            "translate_ru": "Прогноз"
+        },
+        {
+            "artikel": "der",
+            "word": "Start",
+            "translate_ru": "Старт"
+        },
+        {
+            "artikel": "die",
+            "word": "Landung",
+            "translate_ru": "Посадка"
+        },
+        {
+            "artikel": "der",
+            "word": "Flughafen",
+            "translate_ru": "Аэропорт"
+        },
+        {
+            "artikel": "der",
+            "word": "Abflug",
+            "translate_ru": "Взлёт"
+        },
+        {
+            "artikel": "das",
+            "word": "Moped",
+            "translate_ru": "Мопед"
+        },
+        {
+            "artikel": "das",
+            "word": "Verkehrsmittel",
+            "translate_ru": "Транспортное стредство"
+        },
+        {
+            "artikel": "der",
+            "word": "Fußgänger",
+            "translate_ru": "Пешеход"
+        },
+        {
+            "artikel": "der",
+            "word": "Strafzettel",
+            "translate_ru": "штрафная квитанция"
+        },
+        {
+            "artikel": "die",
+            "word": "Strafe",
+            "translate_ru": "Штраф"
+        },
+        {
+            "artikel": "der",
+            "word": "Unterschied",
+            "translate_ru": "Различие"
+        },
+        {
+            "artikel": "das",
+            "word": "Land",
+            "translate_ru": "Страна"
+        },
+        {
+            "artikel": "das",
+            "word": "Tempo",
+            "translate_ru": "Темп"
+        },
+        {
+            "artikel": "die",
+            "word": "Ostsee",
+            "translate_ru": "Балтийское море"
+        },
+        {
+            "artikel": "die",
+            "word": "Wahl",
+            "translate_ru": "Выбор"
+        },
+        {
+            "artikel": "die",
+            "word": "Unterkunft",
+            "translate_ru": "Ночлег"
+        },
+        {
+            "artikel": "der",
+            "word": "Traum",
+            "translate_ru": "Мечта"
+        },
+        {
+            "artikel": "die",
+            "word": "Küste",
+            "translate_ru": "Побережье"
+        },
+        {
+            "artikel": "die",
+            "word": "Insel",
+            "translate_ru": "Остров"
+        },
+        {
+            "artikel": "das",
+            "word": "Gebirde",
+            "translate_ru": "Горы"
+        },
+        {
+            "artikel": "der",
+            "word": "Berg",
+            "translate_ru": "Гора"
+        },
+        {
+            "artikel": "der",
+            "word": "Sand",
+            "translate_ru": "Песок"
+        },
+        {
+            "artikel": "der",
+            "word": "Bauernhof",
+            "translate_ru": "Хозяйство"
+        },
+        {
+            "artikel": "die",
+            "word": "Kuh",
+            "translate_ru": "Корова"
+        },
+        {
+            "artikel": "das",
+            "word": "Pferd",
+            "translate_ru": "Лошадь"
+        },
+        {
+            "artikel": "das",
+            "word": "Schaf",
+            "translate_ru": "Овца"
+        },
+        {
+            "artikel": "das",
+            "word": "Boot",
+            "translate_ru": "Лодка"
+        },
+        {
+            "artikel": "das",
+            "word": "Festival",
+            "translate_ru": "Фестиваль"
+        },
+        {
+            "artikel": "die",
+            "word": "Sehenswürdigkeit",
+            "translate_ru": "Достопримечательность"
+        },
+        {
+            "artikel": "die",
+            "word": "Pension",
+            "translate_ru": "Пансион"
+        },
+        {
+            "artikel": "der",
+            "word": "Blick",
+            "translate_ru": "Вид"
+        },
+        {
+            "artikel": "das",
+            "word": "Einzelzimmer",
+            "translate_ru": "Одиночный номер"
+        },
+        {
+            "artikel": "das",
+            "word": "Doppelzimmer",
+            "translate_ru": "Номер на двоих"
+        },
+        {
+            "artikel": "das",
+            "word": "WC",
+            "translate_ru": "Туалет"
+        },
+        {
+            "artikel": "die",
+            "word": "Halbpension",
+            "translate_ru": "Неполный пансион"
+        },
+        {
+            "artikel": "das",
+            "word": "Camping",
+            "translate_ru": "Кемпинг"
+        },
+        {
+            "artikel": "die",
+            "word": "Tour",
+            "translate_ru": "Тур"
+        },
+        {
+            "artikel": "das",
+            "word": "Tal",
+            "translate_ru": "Долина"
+        },
+        {
+            "artikel": "die",
+            "word": "Wiese",
+            "translate_ru": "Луг"
+        },
+        {
+            "artikel": "die",
+            "word": "Lage",
+            "translate_ru": "Положение"
+        },
+        {
+            "artikel": "das",
+            "word": "Schloss",
+            "translate_ru": "Замок"
+        },
+        {
+            "artikel": "die",
+            "word": "Übernachtung",
+            "translate_ru": "Ночёвка"
+        },
+        {
+            "artikel": "der",
+            "word": "Dom",
+            "translate_ru": "Собор"
+        },
+        {
+            "artikel": "die",
+            "word": "Jugendherberge",
+            "translate_ru": "Молодёжная турбаза"
+        },
+        {
+            "artikel": "der",
+            "word": "Schaden",
+            "translate_ru": "Повреждение"
+        },
+        {
+            "artikel": "der",
+            "word": "Aufenthalt",
+            "translate_ru": "Остановка"
+        },
+        {
+            "artikel": "das",
+            "word": "Reisebüro",
+            "translate_ru": "Бюро путешествий"
+        },
+        {
+            "artikel": "der",
+            "word": "Spezialist",
+            "translate_ru": "Специалист"
+        },
+        {
+            "artikel": "der",
+            "word": "Angestellte",
+            "translate_ru": "Служащий"
+        },
+        {
+            "artikel": "der",
+            "word": "Verbindung",
+            "translate_ru": "Соединение"
+        },
+        {
+            "artikel": "die",
+            "word": "Führung",
+            "translate_ru": "Управление"
+        },
+        {
+            "artikel": "die",
+            "word": "Altstadt",
+            "translate_ru": "Старый город"
+        },
+        {
+            "artikel": "die",
+            "word": "Ausstellung",
+            "translate_ru": "Выставка"
+        },
+        {
+            "artikel": "die",
+            "word": "Früh",
+            "translate_ru": "Рано"
+        },
+        {
+            "artikel": "der",
+            "word": "Handschuh",
+            "translate_ru": "Перчатка"
+        },
+        {
+            "artikel": "die",
+            "word": "Kauffrau",
+            "translate_ru": "Коммерсантка"
+        },
+        {
+            "artikel": "die",
+            "word": "Krawatte",
+            "translate_ru": "Галстук"
+        },
+        {
+            "artikel": "der",
+            "word": "Lohn",
+            "translate_ru": "Зарплата"
+        },
+        {
+            "artikel": "der",
+            "word": "Luftballon",
+            "translate_ru": "Воздушный шарик"
+        },
+        {
+            "artikel": "die",
+            "word": "Lust",
+            "translate_ru": "Настроение"
+        },
+        {
+            "artikel": "der",
+            "word": "Ohrring",
+            "translate_ru": "Серьга"
+        },
+        {
+            "artikel": "die",
+            "word": "Unverschämtheit",
+            "translate_ru": "Наглость"
+        },
+        {
+            "artikel": "das",
+            "word": "Verdienst",
+            "translate_ru": "Заслуга"
+        },
+        {
+            "artikel": "der",
+            "word": "Zwang",
+            "translate_ru": "Насилие"
+        },
+        {
+            "artikel": "der",
+            "word": "Wunsch",
+            "translate_ru": "Желание"
+        },
+        {
+            "artikel": "der",
+            "word": "Besen",
+            "translate_ru": "Метла"
+        },
+        {
+            "artikel": "die",
+            "word": "Blätter",
+            "translate_ru": "Листва"
+        },
+        {
+            "artikel": "der",
+            "word": "Dünger",
+            "translate_ru": "Удобрение"
+        },
+        {
+            "artikel": "der",
+            "word": "Gartenzaun",
+            "translate_ru": "Садовая изгородь"
+        },
+        {
+            "artikel": "die",
+            "word": "Harke",
+            "translate_ru": "Грабли для листвы"
+        },
+        {
+            "artikel": "der",
+            "word": "Rechen",
+            "translate_ru": "Грабли для земли"
+        },
+        {
+            "artikel": "der",
+            "word": "Rasen",
+            "translate_ru": "Газон"
+        },
+        {
+            "artikel": "die",
+            "word": "Schubkarre",
+            "translate_ru": "Тачка для газона"
+        },
+        {
+            "artikel": "das",
+            "word": "Unkraut",
+            "translate_ru": "Сорняк"
+        },
+        {
+            "artikel": "die",
+            "word": "Unkräuter",
+            "translate_ru": "Сорняки"
+        },
+        {
+            "artikel": "der",
+            "word": "Spachtel",
+            "translate_ru": "Шпатель"
+        },
+        {
+            "artikel": "die",
+            "word": "Motorhaube",
+            "translate_ru": "Капот"
+        },
+        {
+            "artikel": "der",
+            "word": "Scheibenwischer",
+            "translate_ru": "Дворники"
+        },
+        {
+            "artikel": "der",
+            "word": "Scheinwerfer",
+            "translate_ru": "Передние фары"
+        },
+        {
+            "artikel": "der",
+            "word": "Reifen",
+            "translate_ru": "Шина"
+        },
+        {
+            "artikel": "der",
+            "word": "Tank",
+            "translate_ru": "Бензобак"
+        },
+        {
+            "artikel": "das",
+            "word": "Fenster",
+            "translate_ru": "Окно"
+        },
+        {
+            "artikel": "die",
+            "word": "Scheibe",
+            "translate_ru": "Стекло"
+        },
+        {
+            "artikel": "der",
+            "word": "Türgriff",
+            "translate_ru": "Дверная ручка"
+        },
+        {
+            "artikel": "der",
+            "word": "Blinker",
+            "translate_ru": "Поворотник"
+        },
+        {
+            "artikel": "der",
+            "word": "Auspuff",
+            "translate_ru": "Выхлопная труба"
+        },
+        {
+            "artikel": "die",
+            "word": "Stoßstange",
+            "translate_ru": "Бампер"
+        },
+        {
+            "artikel": "der",
+            "word": "Außenspiegel",
+            "translate_ru": "Внешнее зеркало"
+        },
+        {
+            "artikel": "der",
+            "word": "Innenspiegel",
+            "translate_ru": "Внутреннее зеркало"
+        },
+        {
+            "artikel": "das",
+            "word": "Rad",
+            "translate_ru": "Колесо"
+        },
+        {
+            "artikel": "die",
+            "word": "Radkappen",
+            "translate_ru": "Колпаки колёс"
+        },
+        {
+            "artikel": "die",
+            "word": "Tür",
+            "translate_ru": "Дверь"
+        },
+        {
+            "artikel": "die",
+            "word": "Türen",
+            "translate_ru": "Двери"
+        },
+        {
+            "artikel": "das",
+            "word": "Rücklicht",
+            "translate_ru": "Задние фары"
+        },
+        {
+            "artikel": "die",
+            "word": "Windschutzscheibe",
+            "translate_ru": "Лобовое стекло"
+        },
+        {
+            "artikel": "die",
+            "word": "Antenne",
+            "translate_ru": "Антенна"
+        },
+        {
+            "artikel": "das",
+            "word": "Ersatzrad",
+            "translate_ru": "Запасное колесо"
+        },
+        {
+            "artikel": "die",
+            "word": "Ankunft",
+            "translate_ru": "Прибытие"
+        },
+        {
+            "artikel": "die",
+            "word": "Mittagsbetreuung",
+            "translate_ru": "Дневной уход"
+        },
+        {
+            "artikel": "die",
+            "word": "Gebühr",
+            "translate_ru": "Плата"
+        },
+        {
+            "artikel": "die",
+            "word": "Hektik",
+            "translate_ru": "Суматоха"
+        },
+        {
+            "artikel": "die",
+            "word": "Krankheit",
+            "translate_ru": "Болезнь"
+        },
+        {
+            "artikel": "der",
+            "word": "Vordergrund",
+            "translate_ru": "Передний план"
+        },
+        {
+            "artikel": "der",
+            "word": "Hintergrund",
+            "translate_ru": "Задний план"
+        },
+        {
+            "artikel": "die",
+            "word": "Bastelarbeit",
+            "translate_ru": "Ремесло"
+        },
+        {
+            "artikel": "die",
+            "word": "Unterstützung",
+            "translate_ru": "Поддержка"
+        },
+        {
+            "artikel": "das",
+            "word": "Miteinander",
+            "translate_ru": "Взаимодействие"
+        },
+        {
+            "artikel": "die",
+            "word": "Jahreszeit",
+            "translate_ru": "Время года"
+        },
+        {
+            "artikel": "das",
+            "word": "Gemeinschaftsgefühl",
+            "translate_ru": "Общественное чувство"
+        },
+        {
+            "artikel": "die",
+            "word": "Hausaufgabenbetreuung",
+            "translate_ru": "Уход за домашними заданиями"
+        },
+        {
+            "artikel": "die",
+            "word": "Hälfte",
+            "translate_ru": "Половина"
+        }
+    ],
+    "Verben": [
+        {
+            "word": "ansehen",
+            "translate_ru": "смотрит",
+            "perfekt form": "angesehen",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "klappen",
+            "translate_ru": "сработать",
+            "perfekt form": "geklappt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "umziehen",
+            "translate_ru": "переезжать",
+            "perfekt form": "umgezogen",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "kennenlernen",
+            "translate_ru": "познакомились",
+            "perfekt form": "kennengelernt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "auspacken",
+            "translate_ru": "распаковывать",
+            "perfekt form": "ausgepacht",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "einschlafen",
+            "translate_ru": "уснуть",
+            "perfekt form": "eingeschlafen",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "merken",
+            "translate_ru": "заметить",
+            "perfekt form": "gemerkt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "anschauen",
+            "translate_ru": "смотреть на",
+            "perfekt form": "angeschaut",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "wegfahren",
+            "translate_ru": "уехать",
+            "perfekt form": "weggefahren",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "springen",
+            "translate_ru": "прыгать",
+            "perfekt form": "gesprungen",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "tanken",
+            "translate_ru": "заправить",
+            "perfekt form": "getankt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "abbiegen",
+            "translate_ru": "повернуть",
+            "perfekt form": "abgebogen",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "stürzen",
+            "translate_ru": "упасть",
+            "perfekt form": "gestürzt",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "kleben",
+            "translate_ru": "клеить",
+            "perfekt form": "geklebt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "stehen bleiben",
+            "translate_ru": "остановиться",
+            "perfekt form": "stehen gebleiben",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "überholen",
+            "translate_ru": "обгонять",
+            "perfekt form": "überholt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "sorgen",
+            "translate_ru": "беспокоиться",
+            "perfekt form": "gesorgt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "vermeiden",
+            "translate_ru": "избегать",
+            "perfekt form": "vermieden",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "versprechen",
+            "translate_ru": "обещать",
+            "perfekt form": "versprochen",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "verhindern",
+            "translate_ru": "предотвращать",
+            "perfekt form": "verhindert",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "starten",
+            "translate_ru": "стартовать",
+            "perfekt form": "gestartet",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "landen",
+            "translate_ru": "приземляться",
+            "perfekt form": "gelanden",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "auffallen",
+            "translate_ru": "привлечь внимание",
+            "perfekt form": "aufgefallen",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "hupen",
+            "translate_ru": "сигналить",
+            "perfekt form": "gehupt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "bremsen",
+            "translate_ru": "тормозить",
+            "perfekt form": "gebremst",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "reden",
+            "translate_ru": "беседовать",
+            "perfekt form": "geredet",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "besichtigen",
+            "translate_ru": "посещать",
+            "perfekt form": "besichtigt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "baden",
+            "translate_ru": "купаться",
+            "perfekt form": "gebadet",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "buchen",
+            "translate_ru": "бронировать",
+            "perfekt form": "gebucht",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "erledigen",
+            "translate_ru": "выполнять",
+            "perfekt form": "erledigt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "surfen",
+            "translate_ru": "cёрфить",
+            "perfekt form": "gesurft",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "einpacken",
+            "translate_ru": "упаковывать",
+            "perfekt form": "eingepackt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "einigen",
+            "translate_ru": "договориться",
+            "perfekt form": "geeinigt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "übernachten",
+            "translate_ru": "переночевать",
+            "perfekt form": "übernachtet",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "annehmen",
+            "translate_ru": "принять",
+            "perfekt form": "anhenommen",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "ablehnen",
+            "translate_ru": "отклонить",
+            "perfekt form": "abgelehnt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "faulenzen",
+            "translate_ru": "бездельничать",
+            "perfekt form": "gefaulenzt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "aufräumen",
+            "translate_ru": "почистить",
+            "perfekt form": "aufgeräumt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "aussteigen",
+            "translate_ru": "высаживаться",
+            "perfekt form": "ausgestiegen",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "halten",
+            "translate_ru": "держать",
+            "perfekt form": "gehalten",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "richten",
+            "translate_ru": "адресовать",
+            "perfekt form": "gerichtet",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "sammeln",
+            "translate_ru": "собирать",
+            "perfekt form": "gesammelt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "schaffen",
+            "translate_ru": "создавать",
+            "perfekt form": "geschaffen",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "schulden",
+            "translate_ru": "задолжать",
+            "perfekt form": "geschuldet",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "aussuchen",
+            "translate_ru": "выбирать",
+            "perfekt form": "ausgesucht",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "gelten",
+            "translate_ru": "считаться",
+            "perfekt form": "gegolten",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "beaufsichtigen",
+            "translate_ru": "присматривать",
+            "perfekt form": "beaufsichtigt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "akzeptieren",
+            "translate_ru": "принимать",
+            "perfekt form": "akzeptiert",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "üben",
+            "translate_ru": "упражняться",
+            "perfekt form": "geübt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "stärken",
+            "translate_ru": "укреплять",
+            "perfekt form": "gestärkt",
+            "perfekt begin form": "hat"
+        }
+    ],
+    "Adjektive": [
+        {
+            "word": "glücklich",
+            "translate_ru": "счастливый"
+        },
+        {
+            "word": "leer",
+            "translate_ru": "пустой"
+        },
+        {
+            "word": "rechtzeitig",
+            "translate_ru": "своевременный"
+        },
+        {
+            "word": "vorsichtig",
+            "translate_ru": "осторожно"
+        },
+        {
+            "word": "neblig",
+            "translate_ru": "туманный"
+        },
+        {
+            "word": "komplett",
+            "translate_ru": "полный"
+        },
+        {
+            "word": "stundenlang",
+            "translate_ru": "часами"
+        },
+        {
+            "word": "kräftig",
+            "translate_ru": "сильный"
+        },
+        {
+            "word": "sommerlich",
+            "translate_ru": "летний"
+        },
+        {
+            "word": "dicht",
+            "translate_ru": "густой"
+        },
+        {
+            "word": "voraussichtlich",
+            "translate_ru": "предварительный"
+        },
+        {
+            "word": "gefährlich",
+            "translate_ru": "опасный"
+        },
+        {
+            "word": "anstrengend",
+            "translate_ru": "утомительный"
+        },
+        {
+            "word": "furchtbar",
+            "translate_ru": "ужасный"
+        },
+        {
+            "word": "öffentlich",
+            "translate_ru": "публичный"
+        },
+        {
+            "word": "begeistert",
+            "translate_ru": "восхищённый"
+        },
+        {
+            "word": "kühl",
+            "translate_ru": "прохладный"
+        },
+        {
+            "word": "echt",
+            "translate_ru": "реальный"
+        },
+        {
+            "word": "trocken",
+            "translate_ru": "сухой"
+        },
+        {
+            "word": "romantisch",
+            "translate_ru": "романтический"
+        },
+        {
+            "word": "historisch",
+            "translate_ru": "исторический"
+        },
+        {
+            "word": "zahlreich",
+            "translate_ru": "многочисленный"
+        },
+        {
+            "word": "berühmt",
+            "translate_ru": "знаменитый"
+        },
+        {
+            "word": "glücklich",
+            "translate_ru": "счастливый"
+        },
+        {
+            "word": "traurig",
+            "translate_ru": "грустный"
+        },
+        {
+            "word": "müde",
+            "translate_ru": "уставший"
+        },
+        {
+            "word": "sauer",
+            "translate_ru": "кислый"
+        },
+        {
+            "word": "wütend",
+            "translate_ru": "злой"
+        },
+        {
+            "word": "nervös",
+            "translate_ru": "нервный"
+        },
+        {
+            "word": "ruhig",
+            "translate_ru": "спокойный"
+        },
+        {
+            "word": "erleichtert",
+            "translate_ru": "облегчённый"
+        },
+        {
+            "word": "gelassen",
+            "translate_ru": "раслабленный"
+        },
+        {
+            "word": "optimistisch",
+            "translate_ru": "оптимистичный"
+        },
+        {
+            "word": "konzentriert",
+            "translate_ru": "сконцентрированный"
+        },
+        {
+            "word": "lustig",
+            "translate_ru": "забавный"
+        },
+        {
+            "word": "nachdenklich",
+            "translate_ru": "задумчивый"
+        },
+        {
+            "word": "natürlich",
+            "translate_ru": "натуральный"
+        },
+        {
+            "word": "bekannt",
+            "translate_ru": "знакомый"
+        },
+        {
+            "word": "ähnlich",
+            "translate_ru": "похожий"
+        },
+        {
+            "word": "bunt",
+            "translate_ru": "красочный"
+        },
+        {
+            "word": "durchschnittlich",
+            "translate_ru": "обычный"
+        },
+        {
+            "word": "furchtbar",
+            "translate_ru": "страшный"
+        },
+        {
+            "word": "nett",
+            "translate_ru": "мило"
+        },
+        {
+            "word": "notwendig",
+            "translate_ru": "необходимый"
+        },
+        {
+            "word": "respektvoll",
+            "translate_ru": "уважительный"
+        },
+        {
+            "word": "geborgen",
+            "translate_ru": "безопасный"
+        },
+        {
+            "word": "entsprechend",
+            "translate_ru": "подходящий"
+        },
+        {
+            "word": "selbstständig",
+            "translate_ru": "самостоятельный"
+        }
+    ],
+    "Fragen": [
+        {
+            "word": "Was?",
+            "translate_ru": "Что?"
+        },
+        {
+            "word": "Wo?",
+            "translate_ru": "Где?"
+        },
+        {
+            "word": "Wann?",
+            "translate_ru": "Когда?"
+        }
+    ],
+    "Anderen": [
+        {
+            "word": "weil",
+            "translate_ru": "потому-что"
+        },
+        {
+            "word": "entlang",
+            "translate_ru": "вдоль"
+        },
+        {
+            "word": "vorbei an",
+            "translate_ru": "мимо"
+        },
+        {
+            "word": "gegenüber",
+            "translate_ru": "напротив"
+        },
+        {
+            "word": "wegen",
+            "translate_ru": "из-за"
+        },
+        {
+            "word": "dagegen",
+            "translate_ru": "против"
+        },
+        {
+            "word": "weiter",
+            "translate_ru": "дальше"
+        },
+        {
+            "word": "vor allem",
+            "translate_ru": "прежде всего"
+        },
+        {
+            "word": "inklusive",
+            "translate_ru": "включая"
+        },
+        {
+            "word": "dahin",
+            "translate_ru": "туда"
+        },
+        {
+            "word": "hierhin",
+            "translate_ru": "сюда"
+        },
+        {
+            "word": "dort",
+            "translate_ru": "там"
+        },
+        {
+            "word": "nirgends",
+            "translate_ru": "нигде"
+        },
+        {
+            "word": "nirgenwo",
+            "translate_ru": "никуда"
+        },
+        {
+            "word": "dagegen sein",
+            "translate_ru": "быть против этого"
+        },
+        {
+            "word": "dafür sein",
+            "translate_ru": "быть за это"
+        },
+        {
+            "word": "obwohl",
+            "translate_ru": "хотя"
+        },
+        {
+            "word": "nachdem",
+            "translate_ru": "после того как"
+        },
+        {
+            "word": "jedoch",
+            "translate_ru": "тем не менее"
+        },
+        {
+            "word": "sondern",
+            "translate_ru": "но"
+        },
+        {
+            "word": "draußen",
+            "translate_ru": "на улице"
+        },
+        {
+            "word": "hierzu",
+            "translate_ru": "к этому"
+        },
+        {
+            "word": "jedoch",
+            "translate_ru": "тем не менее"
+        }
+    ]
+}
