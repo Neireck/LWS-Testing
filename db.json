@@ -233,7 +233,7 @@
         {
             "artikel": "die",
             "word": "Aussicht",
-            "translate_ru": "Прогноз"
+            "translate_ru": "Вид"
         },
         {
             "artikel": "der",
@@ -263,7 +263,7 @@
         {
             "artikel": "das",
             "word": "Verkehrsmittel",
-            "translate_ru": "Транспортное стредство"
+            "translate_ru": "Транспортное средство"
         },
         {
             "artikel": "der",
@@ -273,7 +273,7 @@
         {
             "artikel": "der",
             "word": "Strafzettel",
-            "translate_ru": "штрафная квитанция"
+            "translate_ru": "Штрафная квитанция"
         },
         {
             "artikel": "die",
@@ -383,7 +383,7 @@
         {
             "artikel": "der",
             "word": "Blick",
-            "translate_ru": "Вид"
+            "translate_ru": "Взгляд"
         },
         {
             "artikel": "das",
@@ -733,7 +733,7 @@
         {
             "artikel": "die",
             "word": "Hektik",
-            "translate_ru": "Суматоха"
+            "translate_ru": "Суета"
         },
         {
             "artikel": "die",
@@ -969,7 +969,7 @@
         },
         {
             "word": "surfen",
-            "translate_ru": "cерфить",
+            "translate_ru": "сёрфить",
             "perfekt form": "gesurft",
             "perfekt begin form": "ist"
         },
