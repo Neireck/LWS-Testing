@@ -784,6 +784,126 @@
             "artikel": "die",
             "word": "Hälfte",
             "translate_ru": "Половина"
+        },
+        {
+            "artikel": "der",
+            "word": "Regen",
+            "translate_ru": "Дождь"
+        },
+        {
+            "artikel": "der",
+            "word": "Regenbogen",
+            "translate_ru": "Радуга"
+        },
+        {
+            "artikel": "der",
+            "word": "Sonnenschein",
+            "translate_ru": "Солнце сияние"
+        },
+        {
+            "artikel": "der",
+            "word": "Wind",
+            "translate_ru": "Ветер"
+        },
+        {
+            "artikel": "das",
+            "word": "Gewitter",
+            "translate_ru": "Гроза"
+        },
+        {
+            "artikel": "der",
+            "word": "Donner",
+            "translate_ru": "Гром"
+        },
+        {
+            "artikel": "der",
+            "word": "Blitz",
+            "translate_ru": "Молния"
+        },
+        {
+            "artikel": "der",
+            "word": "Hagel",
+            "translate_ru": "Град"
+        },
+        {
+            "artikel": "der",
+            "word": "Raureif",
+            "translate_ru": "Иней"
+        },
+        {
+            "artikel": "der",
+            "word": "Schnee",
+            "translate_ru": "Снег"
+        },
+        {
+            "artikel": "der",
+            "word": "Frost",
+            "translate_ru": "Мороз"
+        },
+        {
+            "artikel": "das",
+            "word": "Eis",
+            "translate_ru": "Лёд"
+        },
+        {
+            "artikel": "die",
+            "word": "Entwässerung",
+            "translate_ru": "Осушение"
+        },
+        {
+            "artikel": "das",
+            "word": "Umweltamt",
+            "translate_ru": "Агенство по охране окружающей среды"
+        },
+        {
+            "artikel": "die",
+            "word": "Geburtsurkunde",
+            "translate_ru": "Свидетельство о рождении"
+        },
+        {
+            "artikel": "der",
+            "word": "Geburtsschein",
+            "translate_ru": "Свидетельство о рождении 2"
+        },
+        {
+            "artikel": "die",
+            "word": "Namensführung",
+            "translate_ru": "Управление именами"
+        },
+        {
+            "artikel": "der",
+            "word": "Mietspiegel",
+            "translate_ru": "Индекс арендной платы"
+        },
+        {
+            "artikel": "der",
+            "word": "Fernunterricht",
+            "translate_ru": "Дистанционное обучение"
+        },
+        {
+            "artikel": "das",
+            "word": "Rennen",
+            "translate_ru": "Гонка"
+        },
+        {
+            "artikel": "die",
+            "word": "Weiterbildung",
+            "translate_ru": "Повышение квалификации"
+        },
+        {
+            "artikel": "die",
+            "word": "Pflanzen",
+            "translate_ru": "Растения"
+        },
+        {
+            "artikel": "die",
+            "word": "Entscheidung",
+            "translate_ru": "Решение"
+        },
+        {
+            "artikel": "die",
+            "word": "Menge",
+            "translate_ru": "Количество"
         }
     ],
     "Verben": [
@@ -1086,6 +1206,18 @@
             "translate_ru": "укреплять",
             "perfekt form": "gestärkt",
             "perfekt begin form": "hat"
+        },
+        {
+            "word": "wandern",
+            "translate_ru": "гулять",
+            "perfekt form": "gewandert",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "ablaufen",
+            "translate_ru": "протекать",
+            "perfekt form": "abgelaufen",
+            "perfekt begin form": "ist"
         }
     ],
     "Adjektive": [
@@ -1280,6 +1412,54 @@
         {
             "word": "selbstständig",
             "translate_ru": "самостоятельный"
+        },
+        {
+            "word": "sonnig",
+            "translate_ru": "солнечно"
+        },
+        {
+            "word": "wolkig",
+            "translate_ru": "облачно"
+        },
+        {
+            "word": "nebelig",
+            "translate_ru": "туманно"
+        },
+        {
+            "word": "heiß",
+            "translate_ru": "жарко"
+        },
+        {
+            "word": "warm",
+            "translate_ru": "тепло"
+        },
+        {
+            "word": "kalt",
+            "translate_ru": "холодно"
+        },
+        {
+            "word": "bedeckt",
+            "translate_ru": "пасмурно"
+        },
+        {
+            "word": "vereist",
+            "translate_ru": "заледенелый"
+        },
+        {
+            "word": "verschneit",
+            "translate_ru": "заснеженный"
+        },
+        {
+            "word": "regnerisch",
+            "translate_ru": "дождливый"
+        },
+        {
+            "word": "stürmisch",
+            "translate_ru": "штормовой"
+        },
+        {
+            "word": "feucht",
+            "translate_ru": "влажный"
         }
     ],
     "Fragen": [
