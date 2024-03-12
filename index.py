@@ -29,6 +29,7 @@ def get_word_data(db, word_type = 'Random'):
 def set_user_mode():
     global mode
     global statistic
+    global answer
     print('''\nРежимы тестирования: 
         1) Deutsch -> Русский 
         2) Русский -> Deutsch
@@ -39,6 +40,7 @@ def set_user_mode():
     try: mode = int(input('Ваш выбор: '))
     except ValueError: mode = None
     statistic = [0, 0]
+    answer = ''
 
 # Connect database
 try:
@@ -62,9 +64,10 @@ if 'mode' not in locals():
 j = 1
 while j == 1:
     if mode == 1:           # Deutsch -> Русский
-        if check_db_arr(db) == True:
+        if check_db_arr(db) == True or answer == '!':
             print(f"\nПравильных ответов: {statistic[0]}\nОшибок: {statistic[1]}\nВсего попыток: {statistic[0]+statistic[1]}\n")
             db = get_db()
+            answer = ''
             if input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
                 statistic = [0, 0]
                 continue
@@ -87,7 +90,7 @@ while j == 1:
         if word["translate_ru"] == answer: 
             print("\nПравильно!")
             statistic[0] += 1
-        elif answer == '!': j = 0
+        elif answer == '!': continue
         else: 
             print('\nНе правильно!\nПравильный ответ:', word["translate_ru"])
             statistic[1] += 1
@@ -95,9 +98,10 @@ while j == 1:
         del db[word_data['type']][word_data['id']]
 
     elif mode == 2:         # Русский -> Deutsch
-        if check_db_arr(db) == True:
+        if check_db_arr(db) == True or answer == '!':
             print(f"\nПравильных ответов: {statistic[0]}\nОшибок: {statistic[1]}\nВсего попыток: {statistic[0]+statistic[1]}\n")
             db = get_db()
+            answer = ''
             if input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
                 statistic = [0, 0]
                 continue
@@ -117,7 +121,7 @@ while j == 1:
         if word["word"] == answer: 
             print("\nПравильно!")
             statistic[0] += 1
-        elif answer == '!': j = 0
+        elif answer == '!': continue
         else: 
             print('\nНе правильно!\nПравильный ответ:', word["word"])
             statistic[1] += 1
@@ -125,9 +129,10 @@ while j == 1:
         del db[word_data['type']][word_data['id']]
         
     elif mode == 3:         # Артикли немецких слов
-        if check_db_arr(db, 'Substantive') == True:
+        if check_db_arr(db, 'Substantive') == True or answer == '!':
             print(f"\nПравильных ответов: {statistic[0]}\nОшибок: {statistic[1]}\nВсего попыток: {statistic[0]+statistic[1]}\n")
             db = get_db()
+            answer = ''
             if input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
                 statistic = [0, 0]
                 continue
@@ -147,7 +152,7 @@ while j == 1:
         if word["artikel"] == answer: 
             print("\nПравильно!")
             statistic[0] += 1
-        elif answer == '!': j = 0
+        elif answer == '!': continue
         else: 
             print('\nНе правильно!\nПравильный ответ:', word["artikel"])
             statistic[1] += 1
