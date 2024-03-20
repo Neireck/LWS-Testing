@@ -904,6 +904,51 @@
             "artikel": "die",
             "word": "Menge",
             "translate_ru": "Количество"
+        },
+        {
+            "artikel": "die",
+            "word": "Spezialitäten",
+            "translate_ru": "Фирменные блюда"
+        },
+        {
+            "artikel": "die",
+            "word": "Stadtführungen",
+            "translate_ru": "Экскурсии по городу"
+        },
+        {
+            "artikel": "die",
+            "word": "Stadtmeisterschaften",
+            "translate_ru": "Городские соревнования"
+        },
+        {
+            "artikel": "die",
+            "word": "Antikmärkte",
+            "translate_ru": "Антикварные рынки"
+        },
+        {
+            "artikel": "die",
+            "word": "Pilzwanderung",
+            "translate_ru": "Грибной поход"
+        },
+        {
+            "artikel": "die",
+            "word": "Erzieherin",
+            "translate_ru": "Воспитательница"
+        },
+        {
+            "artikel": "die",
+            "word": "Tätigkeit",
+            "translate_ru": "Деятельность"
+        },
+        {
+            "artikel": "die",
+            "word": "Hauswirtschaftskraft",
+            "translate_ru": "Домработница"
+        },
+        {
+            "artikel": "die",
+            "word": "Umschulungen",
+            "translate_ru": "Переквалификация"
         }
     ],
     "Verben": [
@@ -1218,6 +1263,12 @@
             "translate_ru": "протекать",
             "perfekt form": "abgelaufen",
             "perfekt begin form": "ist"
+        },
+        {
+            "word": "mögen",
+            "translate_ru": "нравится",
+            "perfekt form": "gemocht",
+            "perfekt begin form": "hat"
         }
     ],
     "Adjektive": [
@@ -1422,10 +1473,6 @@
             "translate_ru": "облачно"
         },
         {
-            "word": "nebelig",
-            "translate_ru": "туманно"
-        },
-        {
             "word": "heiß",
             "translate_ru": "жарко"
         },
@@ -1460,6 +1507,10 @@
         {
             "word": "feucht",
             "translate_ru": "влажный"
+        },
+        {
+            "word": "erforderlich",
+            "translate_ru": "необходимый"
         }
     ],
     "Fragen": [
