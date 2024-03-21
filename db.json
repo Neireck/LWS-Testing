@@ -949,6 +949,51 @@
             "artikel": "die",
             "word": "Umschulungen",
             "translate_ru": "Переквалификация"
+        },
+        {
+            "artikel": "das",
+            "word": "Reisegepäck",
+            "translate_ru": "Багаж"
+        },
+        {
+            "artikel": "die",
+            "word": "Verspätung",
+            "translate_ru": "Опоздание"
+        },
+        {
+            "artikel": "der",
+            "word": "Gegenstand",
+            "translate_ru": "Предмет"
+        },
+        {
+            "artikel": "die",
+            "word": "Gegenstände",
+            "translate_ru": "Предметы"
+        },
+        {
+            "artikel": "die",
+            "word": "Ersatzkäufe",
+            "translate_ru": "Запасные покупки"
+        },
+        {
+            "artikel": "der",
+            "word": "Zeitpunkt",
+            "translate_ru": "Дата"
+        },
+        {
+            "artikel": "das",
+            "word": "Zubehör",
+            "translate_ru": "Аксессуар"
+        },
+        {
+            "artikel": "der",
+            "word": "Ablauf",
+            "translate_ru": "Процесс"
+        },
+        {
+            "artikel": "der",
+            "word": "Diebstahl",
+            "translate_ru": "Кража"
         }
     ],
     "Verben": [
@@ -1275,6 +1320,48 @@
             "translate_ru": "представлять",
             "perfekt form": "vorgestellt",
             "perfekt begin form": "hat"
+        },
+        {
+            "word": "sparen",
+            "translate_ru": "экономить",
+            "perfekt form": "gespart",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "entspannen",
+            "translate_ru": "расслабляться",
+            "perfekt form": "entspannt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "anschließen",
+            "translate_ru": "заключать",
+            "perfekt form": "angeschlossen",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "vereinbaren",
+            "translate_ru": "договориться",
+            "perfekt form": "vereinbart",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "kündigen",
+            "translate_ru": "расторгнуть",
+            "perfekt form": "gekündigt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "verlängern",
+            "translate_ru": "продлевать",
+            "perfekt form": "verlängert",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "abschließen",
+            "translate_ru": "завершать/заключать",
+            "perfekt form": "abgeschlossen",
+            "perfekt begin form": "hat"
         }
     ],
     "Adjektive": [
@@ -1517,6 +1604,22 @@
         {
             "word": "erforderlich",
             "translate_ru": "необходимый"
+        },
+        {
+            "word": "selben",
+            "translate_ru": "тот же"
+        },
+        {
+            "word": "langweilig",
+            "translate_ru": "скучный"
+        },
+        {
+            "word": "gesamt",
+            "translate_ru": "весь"
+        },
+        {
+            "word": "fällig",
+            "translate_ru": "подлежащий оплате"
         }
     ],
     "Fragen": [
@@ -1625,6 +1728,26 @@
         {
             "word": "jedoch",
             "translate_ru": "тем не менее"
+        },
+        {
+            "word": "bzw.",
+            "translate_ru": "или"
+        },
+        {
+            "word": "von bis zu",
+            "translate_ru": "вплоть до"
+        },
+        {
+            "word": "gleich",
+            "translate_ru": "сейчас/подобный"
+        },
+        {
+            "word": "jeweils",
+            "translate_ru": "каждый раз"
+        },
+        {
+            "word": "spätestens",
+            "translate_ru": "не позднее чем"
         }
     ]
 }
