@@ -1,9 +1,39 @@
 import json, copy
 from random import randint, choice as r_choice
 
+def download_db():
+        import wget, os
+
+        file_exists = False
+        file_name = 'db.json'
+        
+        if os.path.exists(file_name):
+            print('\nСоздание резервной копии вашей Базы данных...')
+            file_exists = True
+            try:
+                os.rename(file_name, file_name+'.bckp')
+            except FileExistsError:
+                print('Обнаружена существующая резервная копиия. ВНИМАНИЕ, продолжение операции удалит её.')
+                if input('Продолжить? [Y/n]: ') in ['Y', 'y', 'Д', 'д']:
+                    os.replace(file_name, file_name+'.bckp')
+                else:
+                    return
+        print('ОК!\n')
+        
+        wget.download('https://raw.githubusercontent.com/Neireck/LWS-Testing/main/db.json', file_name)
+
+        print('\n\nБаза данных обновлена!\nПерезапустите приложение.\n')
+        if file_exists:
+            print(f'Если вы хотите восстановить резервную копию, то в папке с этой программой найдите файл "{file_name}" и удалите его,')
+            print(f'а файл "{file_name+".bckp"}" переименуйте на "{file_name}".')
+
 def create_db(data_array):
-    with open('db.json', 'w+', encoding='utf8') as j:
-        json.dump(data_array, j, ensure_ascii=False)
+    answer = input("Хотите загрузить Базу данных от разработчика? [Y/n]: ")
+    if answer in ['Y', 'y', 'Д', 'д']:
+        download_db()
+    else:
+        with open('db.json', 'w+', encoding='utf8') as j:
+            json.dump(data_array, j, ensure_ascii=False)
 
 def get_db():
     with open('db.json', 'r', encoding='utf8') as j:
@@ -34,6 +64,7 @@ def set_user_mode():
         1) Deutsch -> Русский 
         2) Русский -> Deutsch
         3) Артикли немецких слов
+        998) Обновить базу данных по сети (Ваши добавленные слова исчезнут!)
         999) Добавить слова в базу данных
         0) Выход
         ''')
@@ -46,9 +77,10 @@ def set_user_mode():
 try:
     db = get_db()
 except:
+    print('База данных пуста или отсутствует.')
     create_db({'Substantive':[], 'Verben':[], 'Adjektive':[], 'Fragen':[], 'Anderen':[]})
     db = get_db()
-    mode = 999
+    # mode = 999
 
 # Сheck database + len DB
 len_db = 0
@@ -160,7 +192,9 @@ while j == 1:
             statistic[1] += 1
 
         del db[word_data['type']][word_data['id']]
-
+    elif mode == 998:
+        download_db()
+        set_user_mode()
     elif mode == 999:       # Заполнение БД
         print('\n!!! ВЫ В РЕЖИМЕ ДОБАВЛЕНИЕ СЛОВ В БАЗУ ДАННЫХ')
 
