@@ -50,11 +50,13 @@ except:
     db = get_db()
     mode = 999
 
-# Сheck database
+# Сheck database + len DB
+len_db = 0
 for key in db:
     if len(db[key]) == 0:
         print(f'!!! ВНИМАНИЕ: В базе данных нет слов типа "{key}". Пожалуйста, заполните БД как следует.')
         mode = 999
+    len_db += len(db[key])
 
 # Mode
 if 'mode' not in locals():
@@ -84,7 +86,7 @@ while j == 1:
         try:                w_artikel = word["artikel"]
         except KeyError:    w_artikel = ''
 
-        print(f'\n({word_data["type"]})\nВаше слово: {w_artikel} {word["word"]}')
+        print(f'\n{statistic[0]+statistic[1]+1}/{len_db} ({word_data["type"]})\nВаше слово: {w_artikel} {word["word"]}')
         answer = input('Перевод на русский: ')
         
         if word["translate_ru"] == answer: 
@@ -115,7 +117,7 @@ while j == 1:
         except: 
             continue
 
-        print(f'\nВаше слово: {word["translate_ru"]}')
+        print(f'\n{statistic[0]+statistic[1]+1}/{len_db}\nВаше слово: {word["translate_ru"]}')
         answer = input('Перевод на немецкий: ')
 
         if word["word"] == answer: 
@@ -146,7 +148,7 @@ while j == 1:
         except: 
             continue
 
-        print(f'\nВаше слово: {word["word"]}')
+        print(f'\n{statistic[0]+statistic[1]+1}/{len_db}\nВаше слово: {word["word"]}')
         answer = input('Артикль: ')
         
         if word["artikel"] == answer: 
