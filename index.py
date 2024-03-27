@@ -22,7 +22,7 @@ def download_db():
         
         wget.download('https://raw.githubusercontent.com/Neireck/LWS-Testing/main/db.json', file_name)
 
-        print('\n\nБаза данных обновлена!\nПерезапустите приложение.\n')
+        print('\n\nБаза данных обновлена!\n')
         if file_exists:
             print(f'Если вы хотите восстановить резервную копию, то в папке с этой программой найдите файл "{file_name}" и удалите его,')
             print(f'а файл "{file_name+".bckp"}" переименуйте на "{file_name}".')
@@ -194,6 +194,8 @@ while j == 1:
         del db[word_data['type']][word_data['id']]
     elif mode == 998:
         download_db()
+        db = get_db()
+        len_db = sum([len(db[key]) for key in db])
         set_user_mode()
     elif mode == 999:       # Заполнение БД
         print('\n!!! ВЫ В РЕЖИМЕ ДОБАВЛЕНИЕ СЛОВ В БАЗУ ДАННЫХ')
