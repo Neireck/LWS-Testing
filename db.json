@@ -994,6 +994,21 @@
             "artikel": "der",
             "word": "Diebstahl",
             "translate_ru": "Кража"
+        },
+        {
+            "artikel": "die",
+            "word": "Lust",
+            "translate_ru": "Хотелка"
+        },
+        {
+            "artikel": "die",
+            "word": "Verwandten",
+            "translate_ru": "Родственники"
+        },
+        {
+            "artikel": "der",
+            "word": "Geruch",
+            "translate_ru": "Запах"
         }
     ],
     "Verben": [
@@ -1362,6 +1377,18 @@
             "translate_ru": "завершать/заключать",
             "perfekt form": "abgeschlossen",
             "perfekt begin form": "hat"
+        },
+        {
+            "word": "dürfen",
+            "translate_ru": "иметь право",
+            "perfekt form": "gedurft",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "riechen",
+            "translate_ru": "пахнуть",
+            "perfekt form": "gerochen",
+            "perfekt begin form": "hat"
         }
     ],
     "Adjektive": [
@@ -1418,7 +1445,7 @@
             "translate_ru": "утомительный"
         },
         {
-            "word": "furchtbar",
+            "word": "schrecklich",
             "translate_ru": "ужасный"
         },
         {
@@ -1634,6 +1661,14 @@
         {
             "word": "Wann?",
             "translate_ru": "Когда?"
+        },
+        {
+            "word": "Worauf?",
+            "translate_ru": "На что?"
+        },
+        {
+            "word": "Wohin?",
+            "translate_ru": "Куда?"
         }
     ],
     "Anderen": [
@@ -1748,6 +1783,10 @@
         {
             "word": "spätestens",
             "translate_ru": "не позднее чем"
+        },
+        {
+            "word": "dafür",
+            "translate_ru": "для этого"
         }
     ]
 }
