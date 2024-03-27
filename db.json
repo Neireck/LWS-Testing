@@ -1032,7 +1032,7 @@
         },
         {
             "word": "kennenlernen",
-            "translate_ru": "познакомились",
+            "translate_ru": "познакомиться",
             "perfekt form": "kennengelernt",
             "perfekt begin form": "hat"
         },
@@ -1350,13 +1350,13 @@
         },
         {
             "word": "anschließen",
-            "translate_ru": "заключать",
+            "translate_ru": "подключать",
             "perfekt form": "angeschlossen",
             "perfekt begin form": "hat"
         },
         {
             "word": "vereinbaren",
-            "translate_ru": "договориться",
+            "translate_ru": "согласовывать",
             "perfekt form": "vereinbart",
             "perfekt begin form": "hat"
         },
