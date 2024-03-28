@@ -2,30 +2,39 @@ import json, copy
 from random import randint, choice as r_choice
 
 def download_db():
-        import wget, os
+    import wget, os
 
-        file_exists = False
-        file_name = 'db.json'
-        
-        if os.path.exists(file_name):
-            print('\nСоздание резервной копии вашей Базы данных...')
-            file_exists = True
-            try:
-                os.rename(file_name, file_name+'.bckp')
-            except FileExistsError:
-                print('Обнаружена существующая резервная копиия. ВНИМАНИЕ, продолжение операции удалит её.')
-                if input('Продолжить? [Y/n]: ') in ['Y', 'y', 'Д', 'д']:
-                    os.replace(file_name, file_name+'.bckp')
-                else:
-                    return
-        print('ОК!\n')
-        
-        wget.download('https://raw.githubusercontent.com/Neireck/LWS-Testing/main/db.json', file_name)
+    file_exists = False
+    file_name = 'db.json'
+    
+    if os.path.exists(file_name):
+        print('\nСоздание резервной копии вашей Базы данных...')
+        file_exists = True
+        try:
+            os.rename(file_name, file_name+'.bckp')
+        except FileExistsError:
+            print('Обнаружена существующая резервная копиия. ВНИМАНИЕ, продолжение операции удалит её.')
+            if input('Продолжить? [Y/n]: ') in ['Y', 'y', 'Д', 'д']:
+                os.replace(file_name, file_name+'.bckp')
+            else:
+                return
+    print('ОК!\n')
+    
+    wget.download('https://raw.githubusercontent.com/Neireck/LWS-Testing/main/db.json', file_name)
 
-        print('\n\nБаза данных обновлена!\n')
-        if file_exists:
-            print(f'Если вы хотите восстановить резервную копию, то в папке с этой программой найдите файл "{file_name}" и удалите его,')
-            print(f'а файл "{file_name+".bckp"}" переименуйте на "{file_name}".')
+    print('\n\nБаза данных обновлена!\n')
+    if file_exists:
+        print(f'Если вы хотите восстановить резервную копию, то в папке с этой программой найдите файл "{file_name}" и удалите его,')
+        print(f'а файл "{file_name+".bckp"}" переименуйте на "{file_name}".')
+
+def check_update_db():
+    import requests
+
+    remoute_db = requests.get('https://raw.githubusercontent.com/Neireck/LWS-Testing/main/db.json').json()
+    if db != remoute_db:
+        print('\n! Обнаружена новая версия Базы данных.\n! Если вы не вносили свои слова в программу, то выберите пункт 998.')
+    
+    del remoute_db
 
 def create_db(data_array):
     answer = input("Хотите загрузить Базу данных от разработчика? [Y/n]: ")
@@ -60,6 +69,7 @@ def set_user_mode():
     global mode
     global statistic
     global answer
+    check_update_db()
     print('''\nРежимы тестирования: 
         1) Deutsch -> Русский 
         2) Русский -> Deutsch
