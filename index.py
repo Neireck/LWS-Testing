@@ -1,9 +1,14 @@
-import json, copy
+import json, copy, os, wget, requests, urllib.error
 from random import randint, choice as r_choice
+from requests.exceptions import ConnectionError
+
+def ConnectionErrorMessage(action_info):
+        print(f'\n! Возникла сетевая ошибка и программе не удалось {action_info}.')
+        print('! Убедитесь, что у Вас включён интернет и соединение стабильно.')
+        print('! Программа работает в автономном режиме.')
+        input('\nНажмите Enter чтобы продолжить...\n')
 
 def download_db():
-    import wget, os
-
     file_exists = False
     file_name = 'db.json'
     
@@ -18,46 +23,63 @@ def download_db():
                 os.replace(file_name, file_name+'.bckp')
             else:
                 return
-    print('ОК!\n')
+        print('ОК!\n')
     
-    wget.download('https://raw.githubusercontent.com/Neireck/LWS-Testing/main/db.json', file_name)
+    try:
+        wget.download('https://raw.githubusercontent.com/Neireck/LWS-Testing/main/db.json', file_name)
+    except urllib.error.URLError:
+        ConnectionErrorMessage('загрузить Базу данных, но Вы можете заполнить её словами самостоятельно')
+        return False
 
     print('\n\nБаза данных обновлена!\n')
     if file_exists:
         print(f'Если вы хотите восстановить резервную копию, то в папке с этой программой найдите файл "{file_name}" и удалите его,')
         print(f'а файл "{file_name+".bckp"}" переименуйте на "{file_name}".')
+    
+    return True
 
 def check_update_db():
-    import requests
+    try:
+        remoute_db = requests.get('https://raw.githubusercontent.com/Neireck/LWS-Testing/main/db.json').json()
+    except ConnectionError:
+        ConnectionErrorMessage('проверить наличие обновлений Базы данных')
+        return
 
-    remoute_db = requests.get('https://raw.githubusercontent.com/Neireck/LWS-Testing/main/db.json').json()
     if db != remoute_db:
         print('\n! Обнаружена новая версия Базы данных.\n! Если вы не вносили свои слова в программу, то выберите пункт 998.')
     
     del remoute_db
 
-def create_db(data_array):
-    answer = input("Хотите загрузить Базу данных от разработчика? [Y/n]: ")
+def create_db(data_array, no_download = False):
+    if no_download: answer = 'N'
+    else: answer = input("Хотите загрузить Базу данных от разработчика? [Y/n]: ")
+
     if answer in ['Y', 'y', 'Д', 'д']:
-        download_db()
+        if download_db() == False:
+            create_db(data_array, True)
     else:
         with open('db.json', 'w+', encoding='utf8') as j:
             json.dump(data_array, j, ensure_ascii=False)
 
-def get_db():
-    with open('db.json', 'r', encoding='utf8') as j:
-        return json.load(j)
-
-def check_db_arr(data, word_type = 'All'):
-    count = 0
+def counter_db(db, word_type = 'All'):
     if word_type == 'All':
-        for k in data:
-            count += len(data[k])
+        return sum([len(db[key]) for key in db])
     else:
-        count = len(data[word_type])
-    
-    if count != 0: return False
-    else: return True
+        return len(db[word_type])
+
+def get_db(file_name = 'db.json'):
+    if os.path.exists(file_name): # Check file DB
+        with open(file_name, 'r', encoding='utf8') as j:
+            db = json.load(j)
+        if counter_db(db) == 0: # Check DB
+            global mode
+            print(f'\n!!! ВНИМАНИЕ: В базе данных нет слов. Пожалуйста, заполните БД как следует.')
+            mode = 999
+        return db
+    else:
+        print('База данных пуста или отсутствует.')
+        create_db({'Substantive':[], 'Verben':[], 'Adjektive':[], 'Fragen':[], 'Anderen':[]})
+        return get_db()
 
 def get_word_data(db, word_type = 'Random'):
     data = {}
@@ -83,22 +105,18 @@ def set_user_mode():
     statistic = [0, 0]
     answer = ''
 
-# Connect database
-try:
+def connect_db():
+    global db
+    global static_len_db
+    global dynamic_len_db
+    global s_len_substantive
+    global d_len_substantive
     db = get_db()
-except:
-    print('База данных пуста или отсутствует.')
-    create_db({'Substantive':[], 'Verben':[], 'Adjektive':[], 'Fragen':[], 'Anderen':[]})
-    db = get_db()
-    # mode = 999
-
-# Сheck database + len DB
-len_db = 0
-for key in db:
-    if len(db[key]) == 0:
-        print(f'!!! ВНИМАНИЕ: В базе данных нет слов типа "{key}". Пожалуйста, заполните БД как следует.')
-        mode = 999
-    len_db += len(db[key])
+    static_len_db = counter_db(db)
+    dynamic_len_db = copy.copy(static_len_db)
+    s_len_substantive = counter_db(db, 'Substantive')
+    d_len_substantive = copy.copy(s_len_substantive)
+connect_db()
 
 # Mode
 if 'mode' not in locals():
@@ -108,27 +126,28 @@ if 'mode' not in locals():
 j = 1
 while j == 1:
     if mode == 1:           # Deutsch -> Русский
-        if check_db_arr(db) == True or answer == '!':
+        if dynamic_len_db == 0 or answer == '!':
             print(f"\nПравильных ответов: {statistic[0]}\nОшибок: {statistic[1]}\nВсего попыток: {statistic[0]+statistic[1]}\n")
             db = get_db()
+            dynamic_len_db = copy.copy(static_len_db)
             answer = ''
-            if input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
+            if mode != 999 and input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
                 statistic = [0, 0]
                 continue
             else:
                 set_user_mode()
                 continue
 
-        try:    
+        try:
             word_data = get_word_data(db)
             word = db[word_data['type']][word_data['id']]
-        except: 
+        except: # If no words
             continue
 
         try:                w_artikel = word["artikel"]
         except KeyError:    w_artikel = ''
 
-        print(f'\n{statistic[0]+statistic[1]+1}/{len_db} ({word_data["type"]})\nВаше слово: {w_artikel} {word["word"]}')
+        print(f'\n{statistic[0]+statistic[1]+1}/{static_len_db} ({word_data["type"]})\nВаше слово: {w_artikel} {word["word"]}')
         answer = input('Перевод на русский: ')
         
         if word["translate_ru"] == answer: 
@@ -140,11 +159,13 @@ while j == 1:
             statistic[1] += 1
         
         del db[word_data['type']][word_data['id']]
+        dynamic_len_db -= 1
 
     elif mode == 2:         # Русский -> Deutsch
-        if check_db_arr(db) == True or answer == '!':
+        if dynamic_len_db == 0 or answer == '!':
             print(f"\nПравильных ответов: {statistic[0]}\nОшибок: {statistic[1]}\nВсего попыток: {statistic[0]+statistic[1]}\n")
             db = get_db()
+            dynamic_len_db = copy.copy(static_len_db)
             answer = ''
             if input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
                 statistic = [0, 0]
@@ -159,7 +180,7 @@ while j == 1:
         except: 
             continue
 
-        print(f'\n{statistic[0]+statistic[1]+1}/{len_db}\nВаше слово: {word["translate_ru"]}')
+        print(f'\n{statistic[0]+statistic[1]+1}/{static_len_db}\nВаше слово: {word["translate_ru"]}')
         answer = input('Перевод на немецкий: ')
 
         if word["word"] == answer: 
@@ -171,12 +192,14 @@ while j == 1:
             statistic[1] += 1
         
         del db[word_data['type']][word_data['id']]
+        dynamic_len_db -= 1
         
     elif mode == 3:         # Артикли немецких слов
-        if check_db_arr(db, 'Substantive') == True or answer == '!':
+        if d_len_substantive == 0 or answer == '!':
             print(f"\nПравильных ответов: {statistic[0]}\nОшибок: {statistic[1]}\nВсего попыток: {statistic[0]+statistic[1]}\n")
             db = get_db()
             answer = ''
+            d_len_substantive = copy.copy(s_len_substantive)
             if input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
                 statistic = [0, 0]
                 continue
@@ -190,7 +213,7 @@ while j == 1:
         except: 
             continue
 
-        print(f'\n{statistic[0]+statistic[1]+1}/{len_db}\nВаше слово: {word["word"]}')
+        print(f'\n{statistic[0]+statistic[1]+1}/{s_len_substantive}\nВаше слово: {word["word"]}')
         answer = input('Артикль: ')
         
         if word["artikel"] == answer: 
@@ -202,10 +225,11 @@ while j == 1:
             statistic[1] += 1
 
         del db[word_data['type']][word_data['id']]
+        d_len_substantive -= 1
+
     elif mode == 998:
         download_db()
-        db = get_db()
-        len_db = sum([len(db[key]) for key in db])
+        connect_db()
         set_user_mode()
     elif mode == 999:       # Заполнение БД
         print('\n!!! ВЫ В РЕЖИМЕ ДОБАВЛЕНИЕ СЛОВ В БАЗУ ДАННЫХ')
@@ -269,7 +293,8 @@ while j == 1:
                 print('\nОшибка ввода. Повторите ещё раз!')
                 continue
             
-            create_db(db)
+            create_db(db, True)
+            connect_db()
 
             confirm = input('\nНажмите Enter чтобы продолжить или введите что либо, чтобы прервать... ')
             print(f'\nПоследнее добавление: {db[name_type][-1]}\n')
