@@ -167,7 +167,7 @@ while j == 1:
             db = get_db()
             dynamic_len_db = copy.copy(static_len_db)
             answer = ''
-            if input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
+            if mode != 999 and input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
                 statistic = [0, 0]
                 continue
             else:
@@ -200,7 +200,7 @@ while j == 1:
             db = get_db()
             answer = ''
             d_len_substantive = copy.copy(s_len_substantive)
-            if input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
+            if mode != 999 and input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
                 statistic = [0, 0]
                 continue
             else:
