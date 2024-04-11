@@ -3,23 +3,23 @@ from random import randint, choice as r_choice
 from requests.exceptions import ConnectionError
 
 def ConnectionErrorMessage(action_info):
-        print(f'\n! Возникла сетевая ошибка и программе не удалось {action_info}.')
-        print('! Убедитесь, что у Вас включён интернет и соединение стабильно.')
-        print('! Программа работает в автономном режиме.')
-        input('\nНажмите Enter чтобы продолжить...\n')
+        print(f'\n! Ein Netzwerkfehler ist aufgetreten und das Programm {action_info}.')
+        print('! Stellen Sie sicher, dass Ihr Internet eingeschaltet und die Verbindung stabil ist.')
+        print('! Das Programm funktioniert offline.')
+        input('\nDrücken Sie die Eingabetaste, um fortzufahren...\n')
 
 def download_db():
     file_exists = False
     file_name = 'db.json'
     
     if os.path.exists(file_name):
-        print('\nСоздание резервной копии вашей Базы данных...')
+        print('\nSichern Sie Ihre Datenbank...')
         file_exists = True
         try:
             os.rename(file_name, file_name+'.bckp')
         except FileExistsError:
-            print('Обнаружена существующая резервная копиия. ВНИМАНИЕ, продолжение операции удалит её.')
-            if input('Продолжить? [Y/n]: ') in ['Y', 'y', 'Д', 'д']:
+            print('Es wurde ein vorhandenes Backup erkannt. ACHTUNG: Wenn Sie den Vorgang fortsetzen, wird es entfernt.')
+            if input('Weitermachen? [Y/n]: ') in ['Y', 'y', 'Д', 'д', 'J', 'j']:
                 os.replace(file_name, file_name+'.bckp')
             else:
                 return
@@ -28,13 +28,13 @@ def download_db():
     try:
         wget.download('https://raw.githubusercontent.com/Neireck/LWS-Testing/main/db.json', file_name)
     except urllib.error.URLError:
-        ConnectionErrorMessage('загрузить Базу данных, но Вы можете заполнить её словами самостоятельно')
+        ConnectionErrorMessage('die Datenbank nicht laden. Sie können sie jedoch selbst mit Wörtern füllen')
         return False
 
-    print('\n\nБаза данных обновлена!\n')
+    print('\n\nDatenbank aktualisiert!\n')
     if file_exists:
-        print(f'Если вы хотите восстановить резервную копию, то в папке с этой программой найдите файл "{file_name}" и удалите его,')
-        print(f'а файл "{file_name+".bckp"}" переименуйте на "{file_name}".')
+        print(f'Wenn Sie ein Backup wiederherstellen möchten, suchen Sie im Ordner mit diesem Programm die Datei „{file_name}“ und löschen Sie sie')
+        print(f'und benennen Sie die Datei „{file_name+".bckp"}“ in „{file_name}“ um.')
     
     return True
 
@@ -42,19 +42,19 @@ def check_update_db():
     try:
         remoute_db = requests.get('https://raw.githubusercontent.com/Neireck/LWS-Testing/main/db.json').json()
     except ConnectionError:
-        ConnectionErrorMessage('проверить наличие обновлений Базы данных')
+        ConnectionErrorMessage('konnte nicht nach Datenbankaktualisierungen suchen')
         return
 
     if db != remoute_db:
-        print('\n! Обнаружена новая версия Базы данных.\n! Если вы не вносили свои слова в программу, то выберите пункт 998.')
+        print('\n! Eine neue Version der Datenbank wurde erkannt.\n! Wenn Sie Ihre Wörter nicht in das Programm eingegeben haben, wählen Sie Punkt 998.')
     
     del remoute_db
 
 def create_db(data_array, no_download = False):
     if no_download: answer = 'N'
-    else: answer = input("Хотите загрузить Базу данных от разработчика? [Y/n]: ")
+    else: answer = input("Möchten Sie die Datenbank vom Entwickler herunterladen? [Y/n]: ")
 
-    if answer in ['Y', 'y', 'Д', 'д']:
+    if answer in ['Y', 'y', 'Д', 'д', 'J', 'j']:
         if download_db() == False:
             create_db(data_array, True)
     else:
@@ -73,11 +73,11 @@ def get_db(file_name = 'db.json'):
             db = json.load(j)
         if counter_db(db) == 0: # Check DB
             global mode
-            print(f'\n!!! ВНИМАНИЕ: В базе данных нет слов. Пожалуйста, заполните БД как следует.')
+            print(f'\n!!! ACHTUNG: Die Datenbank enthält keine Wörter. Bitte füllen Sie die Datenbank ordnungsgemäß aus.')
             mode = 999
         return db
     else:
-        print('База данных пуста или отсутствует.')
+        print('Die Datenbank ist leer oder fehlt.')
         create_db({'Substantive':[], 'Verben':[], 'Adjektive':[], 'Fragen':[], 'Anderen':[]})
         return get_db()
 
@@ -92,15 +92,15 @@ def set_user_mode():
     global statistic
     global answer
     check_update_db()
-    print('''\nРежимы тестирования: 
-        1) Deutsch -> Русский 
-        2) Русский -> Deutsch
-        3) Артикли немецких слов
-        998) Обновить базу данных по сети (Ваши добавленные слова исчезнут!)
-        999) Добавить слова в базу данных
-        0) Выход
+    print('''\nTestmodi: 
+        1) Deutsch -> Übersetzung 
+        2) Übersetzung -> Deutsch
+        3) Artikel
+        998) Datenbank online aktualisieren (Ihre hinzugefügten Wörter verschwinden!)
+        999) Wörter zur Datenbank hinzufügen
+        0) Ausgang
         ''')
-    try: mode = int(input('Ваш выбор: '))
+    try: mode = int(input('Ihre Wahl: '))
     except ValueError: mode = None
     statistic = [0, 0]
     answer = ''
@@ -125,13 +125,13 @@ if 'mode' not in locals():
 # Begin test
 j = 1
 while j == 1:
-    if mode == 1:           # Deutsch -> Русский
+    if mode == 1:           # Deutsch -> Übersetzung
         if dynamic_len_db == 0 or answer == '!':
-            print(f"\nПравильных ответов: {statistic[0]}\nОшибок: {statistic[1]}\nВсего попыток: {statistic[0]+statistic[1]}\n")
+            print(f"\nRichtige Antworten: {statistic[0]}\nFehler: {statistic[1]}\nGesamtversuche: {statistic[0]+statistic[1]}\n")
             db = get_db()
             dynamic_len_db = copy.copy(static_len_db)
             answer = ''
-            if mode != 999 and input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
+            if mode != 999 and input('Der Test ist beendet. Möchten Sie es wiederholen? [Y/n]: ') in ['Y', 'y', 'Д', 'д', 'J', 'j']:
                 statistic = [0, 0]
                 continue
             else:
@@ -147,15 +147,15 @@ while j == 1:
         try:                w_artikel = word["artikel"]
         except KeyError:    w_artikel = ''
 
-        print(f'\n{statistic[0]+statistic[1]+1}/{static_len_db} ({word_data["type"]})\nВаше слово: {w_artikel} {word["word"]}')
-        answer = input('Перевод на русский: ')
+        print(f'\n{statistic[0]+statistic[1]+1}/{static_len_db} ({word_data["type"]})\nIhre Wort: {w_artikel} {word["word"]}')
+        answer = input('Übersetzung: ')
         
         if word["translate"] == answer: 
-            print("\nПравильно!")
+            print("\nRechts!")
             statistic[0] += 1
         elif answer == '!': continue
         else: 
-            print('\nНе правильно!\nПравильный ответ:', word["translate"])
+            print('\nFalsch!\nRichtige Antwort:', word["translate"])
             statistic[1] += 1
         
         del db[word_data['type']][word_data['id']]
@@ -163,11 +163,11 @@ while j == 1:
 
     elif mode == 2:         # Русский -> Deutsch
         if dynamic_len_db == 0 or answer == '!':
-            print(f"\nПравильных ответов: {statistic[0]}\nОшибок: {statistic[1]}\nВсего попыток: {statistic[0]+statistic[1]}\n")
+            print(f"\nRichtige Antworten: {statistic[0]}\nFehler: {statistic[1]}\nGesamtversuche: {statistic[0]+statistic[1]}\n")
             db = get_db()
             dynamic_len_db = copy.copy(static_len_db)
             answer = ''
-            if mode != 999 and input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
+            if mode != 999 and input('Der Test ist beendet. Möchten Sie es wiederholen? [Y/n]: ') in ['Y', 'y', 'Д', 'д', 'J', 'j']:
                 statistic = [0, 0]
                 continue
             else:
@@ -180,15 +180,15 @@ while j == 1:
         except: 
             continue
 
-        print(f'\n{statistic[0]+statistic[1]+1}/{static_len_db}\nВаше слово: {word["translate"]}')
-        answer = input('Перевод на немецкий: ')
+        print(f'\n{statistic[0]+statistic[1]+1}/{static_len_db}\nIhre Wort: {word["translate"]}')
+        answer = input('Übersetzung ins Deutsche: ')
 
         if word["word"] == answer: 
-            print("\nПравильно!")
+            print("\nRechts!")
             statistic[0] += 1
         elif answer == '!': continue
         else: 
-            print('\nНе правильно!\nПравильный ответ:', word["word"])
+            print('\nFalsch!\nRichtige Antwort:', word["word"])
             statistic[1] += 1
         
         del db[word_data['type']][word_data['id']]
@@ -196,11 +196,11 @@ while j == 1:
         
     elif mode == 3:         # Артикли немецких слов
         if d_len_substantive == 0 or answer == '!':
-            print(f"\nПравильных ответов: {statistic[0]}\nОшибок: {statistic[1]}\nВсего попыток: {statistic[0]+statistic[1]}\n")
+            print(f"\nRichtige Antworten: {statistic[0]}\nFehler: {statistic[1]}\nGesamtversuche: {statistic[0]+statistic[1]}\n")
             db = get_db()
             answer = ''
             d_len_substantive = copy.copy(s_len_substantive)
-            if mode != 999 and input('Тест окончен. Хотите повторить? [Y/n]: ') in ['Y', 'y']:
+            if mode != 999 and input('Der Test ist beendet. Möchten Sie es wiederholen? [Y/n]: ') in ['Y', 'y', 'Д', 'д', 'J', 'j']:
                 statistic = [0, 0]
                 continue
             else:
@@ -213,15 +213,15 @@ while j == 1:
         except: 
             continue
 
-        print(f'\n{statistic[0]+statistic[1]+1}/{s_len_substantive}\nВаше слово: {word["word"]}')
-        answer = input('Артикль: ')
+        print(f'\n{statistic[0]+statistic[1]+1}/{s_len_substantive}\nIhre Wort: {word["word"]}')
+        answer = input('Artikel: ')
         
         if word["artikel"] == answer: 
-            print("\nПравильно!")
+            print("\nRechts!")
             statistic[0] += 1
         elif answer == '!': continue
         else: 
-            print('\nНе правильно!\nПравильный ответ:', word["artikel"])
+            print('\nFalsch!\nRichtige Antwort:', word["artikel"])
             statistic[1] += 1
 
         del db[word_data['type']][word_data['id']]
@@ -232,34 +232,34 @@ while j == 1:
         connect_db()
         set_user_mode()
     elif mode == 999:       # Заполнение БД
-        print('\n!!! ВЫ В РЕЖИМЕ ДОБАВЛЕНИЕ СЛОВ В БАЗУ ДАННЫХ')
+        print('\n!!! SIE SIND DABEI, DEM DATENBANKMODUS WÖRTER HINZUZUFÜGEN')
 
         w = 1
         while w == 1:
-            print('\nВыберите тип слова из списка ниже:')
+            print('\nWählen Sie einen Worttyp aus der Liste unten aus:')
             for k, v in enumerate([key for key in db]):
                 print(f'{k+1}) {v}')
-            print('0) Назад')
-            try: word_type = int(input('\nВаш выбор: '))
+            print('0) Zurück')
+            try: word_type = int(input('\nIhre Wahl: '))
             except ValueError: word_type = None
             #print('')
 
             if word_type == 1:
                 name_type = 'Substantive'
-                print(f'\nДобавление слова типа "{name_type}"')
+                print(f'\nEin Wort hinzufügen. Typ ist "{name_type}"')
 
                 db[name_type].append({
-                    "artikel":      input('Артикль: '),
-                    "word":         input('Слово DE: '),
-                    "translate": input('Перевод RU: ')
+                    "artikel":      input('Artikel: '),
+                    "word":         input('Wort DE: '),
+                    "translate": input('Übersetzung: ')
                 })
             elif word_type == 2:
                 name_type = 'Verben'
                 print(f'\nДобавление слова типа "{name_type}"')
 
                 db[name_type].append({
-                    "word":                 input('Слово DE: '),
-                    "translate":         input('Перевод RU: '),
+                    "word":                 input('Wort DE: '),
+                    "translate":         input('Übersetzung: '),
                     "perfekt form":         input('Perfekt form: '),
                     "perfekt begin form" :  input('Perfekt begin form (ist/hat): ')
                 })
@@ -268,36 +268,36 @@ while j == 1:
                 print(f'\nДобавление слова типа "{name_type}"')
 
                 db[name_type].append({
-                    "word":         input('Слово DE: '),
-                    "translate": input('Перевод RU: ')
+                    "word":         input('Wort DE: '),
+                    "translate": input('Übersetzung: ')
                 })
             elif word_type == 4:
                 name_type = 'Fragen'
                 print(f'\nДобавление слова типа "{name_type}"')
 
                 db[name_type].append({
-                    "word":         input('Слово DE: '),
-                    "translate": input('Перевод RU: ')
+                    "word":         input('Wort DE: '),
+                    "translate": input('Übersetzung: ')
                 })
             elif word_type == 5:
                 name_type = 'Anderen'
                 print(f'\nДобавление слова типа "{name_type}"')
 
                 db[name_type].append({
-                    "word":         input('Слово DE: '),
-                    "translate": input('Перевод RU: ')
+                    "word":         input('Wort DE: '),
+                    "translate": input('Übersetzung: ')
                 })
             elif word_type == 0:
                 break
             else:
-                print('\nОшибка ввода. Повторите ещё раз!')
+                print('\nEingabe Fehler. Noch einmal wiederholen!')
                 continue
             
             create_db(db, True)
             connect_db()
 
-            confirm = input('\nНажмите Enter чтобы продолжить или введите что либо, чтобы прервать... ')
-            print(f'\nПоследнее добавление: {db[name_type][-1]}\n')
+            confirm = input('\nDrücken Sie die Eingabetaste, um fortzufahren, oder geben Sie etwas ein, um den Vorgang abzubrechen... ')
+            print(f'\nZuletzt hinzugefügt: {db[name_type][-1]}\n')
             if confirm != '': w = 0
         
         set_user_mode()
@@ -307,5 +307,5 @@ while j == 1:
         print('\nTschüss!\n')
     
     else:                   # Исключение неверного ответа
-        print("\nТакого режима у нас нет! Попробуйте ещё раз...")
+        print("\nWir haben kein solches Regime! Versuchen Sie es nochmal...")
         set_user_mode()
