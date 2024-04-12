@@ -93,8 +93,8 @@ def set_user_mode():
     global answer
     check_update_db()
     print('''\nРежимы тестирования: 
-        1) Deutsch -> Русский 
-        2) Русский -> Deutsch
+        1) Deutsch -> Перевод 
+        2) Перевод -> Deutsch
         3) Артикли немецких слов
         998) Обновить базу данных по сети (Ваши добавленные слова исчезнут!)
         999) Добавить слова в базу данных
@@ -148,7 +148,7 @@ while j == 1:
         except KeyError:    w_artikel = ''
 
         print(f'\n{statistic[0]+statistic[1]+1}/{static_len_db} ({word_data["type"]})\nВаше слово: {w_artikel} {word["word"]}')
-        answer = input('Перевод на русский: ')
+        answer = input('Перевод: ')
         
         if word["translate"] == answer: 
             print("\nПравильно!")
