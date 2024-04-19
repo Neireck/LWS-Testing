@@ -1009,6 +1009,46 @@
             "artikel": "der",
             "word": "Geruch",
             "translate": "Запах"
+        },
+        {
+            "artikel": "die",
+            "word": "Verabredung",
+            "translate": "Договорённость"
+        },
+        {
+            "artikel": "der",
+            "word": "Anlass",
+            "translate": "Причина"
+        },
+        {
+            "artikel": "die",
+            "word": "Anlässe",
+            "translate": "Причины"
+        },
+        {
+            "artikel": "der",
+            "word": "Hubschrauber",
+            "translate": "Вертолёт"
+        },
+        {
+            "artikel": "die",
+            "word": "Überraschung",
+            "translate": "Сюрприз"
+        },
+        {
+            "artikel": "die",
+            "word": "Katzentoilette",
+            "translate": "Кошачий лоток"
+        },
+        {
+            "artikel": "das",
+            "word": "Holz",
+            "translate": "Древесина"
+        },
+        {
+            "artikel": "die",
+            "word": "Verbindung",
+            "translate": "Соединение"
         }
     ],
     "Verben": [
@@ -1389,6 +1429,66 @@
             "translate": "пахнуть",
             "perfekt form": "gerochen",
             "perfekt begin form": "hat"
+        },
+        {
+            "word": "mangeln",
+            "translate": "не хватать",
+            "perfekt form": "gemangelt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "anstreichen",
+            "translate": "покрасить",
+            "perfekt form": "angestrichen",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "absagen",
+            "translate": "отменять",
+            "perfekt form": "abgesagt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "weinen",
+            "translate": "плакать",
+            "perfekt form": "geweint",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "lachen",
+            "translate": "смеяться",
+            "perfekt form": "gelacht",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "scherzen",
+            "translate": "шутить",
+            "perfekt form": "gescherzt",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "abbuchen",
+            "translate": "дебетовать",
+            "perfekt form": "abgebucht",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "verleihen",
+            "translate": "Дать в долг",
+            "perfekt form": "verliehn",
+            "perfekt begin form": "hat"
+        },
+        {
+            "word": "nahen",
+            "translate": "надвигаться",
+            "perfekt form": "genaht",
+            "perfekt begin form": "ist"
+        },
+        {
+            "word": "verbringen",
+            "translate": "проводить время",
+            "perfekt form": "verbracht",
+            "perfekt begin form": "hat"
         }
     ],
     "Adjektive": [
@@ -1647,6 +1747,10 @@
         {
             "word": "fällig",
             "translate": "подлежащий оплате"
+        },
+        {
+            "word": "wunderbar",
+            "translate": "замечательно"
         }
     ],
     "Fragen": [
@@ -1669,6 +1773,18 @@
         {
             "word": "Wohin?",
             "translate": "Куда?"
+        },
+        {
+            "word": "Womit?",
+            "translate": "Чем?"
+        },
+        {
+            "word": "Was unternehmen?",
+            "translate": "Сделать что-то?"
+        },
+        {
+            "word": "Möchtest du mitkommen?",
+            "translate": "Вы хотели бы пойти со мной?"
         }
     ],
     "Anderen": [
@@ -1787,6 +1903,26 @@
         {
             "word": "dafür",
             "translate": "для этого"
+        },
+        {
+            "word": "gesperrt",
+            "translate": "заблокирован"
+        },
+        {
+            "word": "anstatt",
+            "translate": "вместо"
+        },
+        {
+            "word": "darüber",
+            "translate": "по этому"
+        },
+        {
+            "word": "damit",
+            "translate": "чтобы"
+        },
+        {
+            "word": "Können wir gerne machen",
+            "translate": "Мы можем с радостью это сделать"
         }
     ]
 }
